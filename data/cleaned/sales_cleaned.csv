@@ -1,0 +1,501 @@
+order_id,customer_id,product_id,quantity,order_date,product_name,category,price,name,age,city,payment_method,payment_status,revenue
+1,70,4,2,2025-01-01,Produit_4,Clothing,132,Client_70,19,Paris,PayPal,Paid,264
+2,80,8,2,2025-01-02,Produit_8,Electronics,289,Client_80,53,Bordeaux,Card,Paid,578
+3,93,18,1,2025-01-03,Produit_18,Sports,210,Client_93,64,Lille,PayPal,Paid,210
+4,3,5,5,2025-01-04,Produit_5,Home,410,Client_3,46,Paris,Card,Paid,2050
+5,20,9,3,2025-01-05,Produit_9,Electronics,334,Client_20,41,Marseille,Card,Failed,1002
+6,59,4,5,2025-01-06,Produit_4,Clothing,132,Client_59,24,Bordeaux,Card,Paid,660
+7,36,17,3,2025-01-07,Produit_17,Clothing,106,Client_36,32,Paris,Card,Paid,318
+8,19,9,4,2025-01-08,Produit_9,Electronics,334,Client_19,19,Paris,PayPal,Paid,1336
+9,90,1,5,2025-01-09,Produit_1,Clothing,448,Client_90,33,Lille,Card,Paid,2240
+10,67,20,4,2025-01-10,Produit_20,Sports,196,Client_67,67,Marseille,Card,Paid,784
+11,19,13,2,2025-01-11,Produit_13,Electronics,479,Client_19,19,Paris,PayPal,Paid,958
+12,20,16,2,2025-01-12,Produit_16,Sports,153,Client_20,41,Marseille,PayPal,Failed,306
+13,96,13,1,2025-01-13,Produit_13,Electronics,479,Client_96,42,Bordeaux,Bank Transfer,Paid,479
+14,71,14,5,2025-01-14,Produit_14,Sports,404,Client_71,23,Paris,PayPal,Paid,2020
+15,52,3,4,2025-01-15,Produit_3,Sports,193,Client_52,67,Lyon,PayPal,Paid,772
+16,33,6,3,2025-01-16,Produit_6,Electronics,264,Client_33,59,Bordeaux,Bank Transfer,Paid,792
+17,40,18,2,2025-01-17,Produit_18,Sports,210,Client_40,69,Bordeaux,PayPal,Paid,420
+18,39,19,2,2025-01-18,Produit_19,Home,133,Client_39,61,Marseille,PayPal,Paid,266
+19,82,5,3,2025-01-19,Produit_5,Home,410,Client_82,48,Lyon,PayPal,Paid,1230
+20,1,15,4,2025-01-20,Produit_15,Clothing,249,Client_1,56,Bordeaux,PayPal,Paid,996
+21,11,2,4,2025-01-21,Produit_2,Clothing,212,Client_11,28,Lyon,Bank Transfer,Paid,848
+22,92,10,5,2025-01-22,Produit_10,Home,381,Client_92,35,Marseille,PayPal,Paid,1905
+23,57,18,5,2025-01-23,Produit_18,Sports,210,Client_57,45,Bordeaux,PayPal,Pending,1050
+24,89,13,1,2025-01-24,Produit_13,Electronics,479,Client_89,38,Paris,Bank Transfer,Paid,479
+25,50,5,2,2025-01-25,Produit_5,Home,410,Client_50,42,Marseille,Card,Paid,820
+26,23,1,5,2025-01-26,Produit_1,Clothing,448,Client_23,55,Bordeaux,Bank Transfer,Paid,2240
+27,31,1,4,2025-01-27,Produit_1,Clothing,448,Client_31,66,Lyon,Card,Failed,1792
+28,94,18,3,2025-01-28,Produit_18,Sports,210,Client_94,41,Lyon,Bank Transfer,Pending,630
+29,42,15,4,2025-01-29,Produit_15,Clothing,249,Client_42,54,Paris,Bank Transfer,Paid,996
+30,99,17,2,2025-01-30,Produit_17,Clothing,106,Client_99,46,Lyon,PayPal,Paid,212
+31,7,11,4,2025-01-31,Produit_11,Clothing,107,Client_7,38,Lyon,Card,Paid,428
+32,16,17,1,2025-02-01,Produit_17,Clothing,106,Client_16,41,Lille,PayPal,Paid,106
+33,90,13,2,2025-02-02,Produit_13,Electronics,479,Client_90,33,Lille,Card,Paid,958
+34,60,1,3,2025-02-03,Produit_1,Clothing,448,Client_60,61,Marseille,Bank Transfer,Paid,1344
+35,2,2,1,2025-02-04,Produit_2,Clothing,212,Client_2,69,Paris,Bank Transfer,Paid,212
+36,1,9,2,2025-02-05,Produit_9,Electronics,334,Client_1,56,Bordeaux,Card,Paid,668
+37,48,3,3,2025-02-06,Produit_3,Sports,193,Client_48,35,Lyon,PayPal,Paid,579
+38,12,1,1,2025-02-07,Produit_1,Clothing,448,Client_12,28,Paris,PayPal,Paid,448
+39,69,16,1,2025-02-08,Produit_16,Sports,153,Client_69,21,Paris,PayPal,Paid,153
+40,37,6,2,2025-02-09,Produit_6,Electronics,264,Client_37,64,Lille,PayPal,Paid,528
+41,32,17,5,2025-02-10,Produit_17,Clothing,106,Client_32,44,Paris,Bank Transfer,Paid,530
+42,9,5,1,2025-02-11,Produit_5,Home,410,Client_9,36,Paris,Bank Transfer,Paid,410
+43,99,5,1,2025-02-12,Produit_5,Home,410,Client_99,46,Lyon,Bank Transfer,Paid,410
+44,19,6,3,2025-02-13,Produit_6,Electronics,264,Client_19,19,Paris,Bank Transfer,Pending,792
+45,48,3,4,2025-02-14,Produit_3,Sports,193,Client_48,35,Lyon,Bank Transfer,Paid,772
+46,80,5,2,2025-02-15,Produit_5,Home,410,Client_80,53,Bordeaux,PayPal,Paid,820
+47,3,5,2,2025-02-16,Produit_5,Home,410,Client_3,46,Paris,PayPal,Paid,820
+48,20,10,5,2025-02-17,Produit_10,Home,381,Client_20,41,Marseille,PayPal,Paid,1905
+49,24,10,5,2025-02-18,Produit_10,Home,381,Client_24,19,Lyon,PayPal,Paid,1905
+50,54,19,2,2025-02-19,Produit_19,Home,133,Client_54,43,Marseille,Bank Transfer,Paid,266
+51,33,17,5,2025-02-20,Produit_17,Clothing,106,Client_33,59,Bordeaux,Bank Transfer,Pending,530
+52,24,14,3,2025-02-21,Produit_14,Sports,404,Client_24,19,Lyon,Bank Transfer,Paid,1212
+53,75,9,2,2025-02-22,Produit_9,Electronics,334,Client_75,35,Bordeaux,Card,Failed,668
+54,72,14,5,2025-02-23,Produit_14,Sports,404,Client_72,59,Lyon,PayPal,Pending,2020
+55,36,1,2,2025-02-24,Produit_1,Clothing,448,Client_36,32,Paris,PayPal,Paid,896
+56,38,19,4,2025-02-25,Produit_19,Home,133,Client_38,68,Lille,Bank Transfer,Pending,532
+57,84,13,1,2025-02-26,Produit_13,Electronics,479,Client_84,32,Marseille,PayPal,Paid,479
+58,99,13,2,2025-02-27,Produit_13,Electronics,479,Client_99,46,Lyon,PayPal,Paid,958
+59,89,4,1,2025-02-28,Produit_4,Clothing,132,Client_89,38,Paris,Bank Transfer,Paid,132
+60,99,1,5,2025-03-01,Produit_1,Clothing,448,Client_99,46,Lyon,Card,Pending,2240
+61,25,17,1,2025-03-02,Produit_17,Clothing,106,Client_25,38,Marseille,Card,Pending,106
+62,93,8,2,2025-03-03,Produit_8,Electronics,289,Client_93,64,Lille,Card,Paid,578
+63,18,2,4,2025-03-04,Produit_2,Clothing,212,Client_18,39,Marseille,Bank Transfer,Paid,848
+64,82,8,5,2025-03-05,Produit_8,Electronics,289,Client_82,48,Lyon,PayPal,Paid,1445
+65,66,7,2,2025-03-06,Produit_7,Sports,303,Client_66,53,Lille,Bank Transfer,Paid,606
+66,54,2,5,2025-03-07,Produit_2,Clothing,212,Client_54,43,Marseille,Bank Transfer,Paid,1060
+67,35,3,3,2025-03-08,Produit_3,Sports,193,Client_35,33,Lyon,PayPal,Paid,579
+68,80,18,1,2025-03-09,Produit_18,Sports,210,Client_80,53,Bordeaux,Card,Paid,210
+69,61,12,3,2025-03-10,Produit_12,Clothing,207,Client_61,25,Marseille,Card,Paid,621
+70,41,1,2,2025-03-11,Produit_1,Clothing,448,Client_41,20,Lyon,Bank Transfer,Failed,896
+71,100,12,4,2025-03-12,Produit_12,Clothing,207,Client_100,32,Paris,Card,Paid,828
+72,33,5,5,2025-03-13,Produit_5,Home,410,Client_33,59,Bordeaux,Bank Transfer,Paid,2050
+73,68,17,1,2025-03-14,Produit_17,Clothing,106,Client_68,57,Paris,Bank Transfer,Paid,106
+74,33,16,5,2025-03-15,Produit_16,Sports,153,Client_33,59,Bordeaux,PayPal,Pending,765
+75,14,15,2,2025-03-16,Produit_15,Clothing,249,Client_14,53,Bordeaux,PayPal,Pending,498
+76,21,15,5,2025-03-17,Produit_15,Clothing,249,Client_21,61,Lille,PayPal,Paid,1245
+77,48,5,1,2025-03-18,Produit_5,Home,410,Client_48,35,Lyon,Bank Transfer,Paid,410
+78,20,14,2,2025-03-19,Produit_14,Sports,404,Client_20,41,Marseille,PayPal,Paid,808
+79,8,2,5,2025-03-20,Produit_2,Clothing,212,Client_8,56,Lyon,Card,Paid,1060
+80,7,11,4,2025-03-21,Produit_11,Clothing,107,Client_7,38,Lyon,Card,Paid,428
+81,67,19,2,2025-03-22,Produit_19,Home,133,Client_67,67,Marseille,Bank Transfer,Paid,266
+82,17,7,2,2025-03-23,Produit_7,Sports,303,Client_17,20,Paris,Bank Transfer,Paid,606
+83,33,6,4,2025-03-24,Produit_6,Electronics,264,Client_33,59,Bordeaux,PayPal,Paid,1056
+84,48,2,3,2025-03-25,Produit_2,Clothing,212,Client_48,35,Lyon,Bank Transfer,Paid,636
+85,76,6,1,2025-03-26,Produit_6,Electronics,264,Client_76,43,Paris,Bank Transfer,Paid,264
+86,59,18,3,2025-03-27,Produit_18,Sports,210,Client_59,24,Bordeaux,Card,Paid,630
+87,86,2,5,2025-03-28,Produit_2,Clothing,212,Client_86,31,Paris,Card,Failed,1060
+88,22,18,4,2025-03-29,Produit_18,Sports,210,Client_22,47,Paris,PayPal,Paid,840
+89,30,15,3,2025-03-30,Produit_15,Clothing,249,Client_30,42,Bordeaux,Bank Transfer,Failed,747
+90,38,19,2,2025-03-31,Produit_19,Home,133,Client_38,68,Lille,Bank Transfer,Paid,266
+91,51,2,5,2025-04-01,Produit_2,Clothing,212,Client_51,31,Bordeaux,Card,Paid,1060
+92,54,20,5,2025-04-02,Produit_20,Sports,196,Client_54,43,Marseille,Bank Transfer,Paid,980
+93,8,6,3,2025-04-03,Produit_6,Electronics,264,Client_8,56,Lyon,Card,Paid,792
+94,27,1,3,2025-04-04,Produit_1,Clothing,448,Client_27,29,Lyon,PayPal,Paid,1344
+95,27,15,4,2025-04-05,Produit_15,Clothing,249,Client_27,29,Lyon,Card,Paid,996
+96,98,10,1,2025-04-06,Produit_10,Home,381,Client_98,58,Paris,Bank Transfer,Paid,381
+97,21,19,3,2025-04-07,Produit_19,Home,133,Client_21,61,Lille,PayPal,Paid,399
+98,30,17,3,2025-04-08,Produit_17,Clothing,106,Client_30,42,Bordeaux,Card,Paid,318
+99,97,5,2,2025-04-09,Produit_5,Home,410,Client_97,62,Paris,Card,Paid,820
+100,28,4,5,2025-04-10,Produit_4,Clothing,132,Client_28,39,Paris,PayPal,Paid,660
+101,64,10,1,2025-04-11,Produit_10,Home,381,Client_64,31,Marseille,PayPal,Paid,381
+102,97,17,2,2025-04-12,Produit_17,Clothing,106,Client_97,62,Paris,Card,Paid,212
+103,69,10,4,2025-04-13,Produit_10,Home,381,Client_69,21,Paris,Bank Transfer,Paid,1524
+104,61,17,4,2025-04-14,Produit_17,Clothing,106,Client_61,25,Marseille,Card,Failed,424
+105,48,20,3,2025-04-15,Produit_20,Sports,196,Client_48,35,Lyon,PayPal,Paid,588
+106,19,5,3,2025-04-16,Produit_5,Home,410,Client_19,19,Paris,Card,Paid,1230
+107,4,2,4,2025-04-17,Produit_2,Clothing,212,Client_4,32,Paris,PayPal,Failed,848
+108,35,6,3,2025-04-18,Produit_6,Electronics,264,Client_35,33,Lyon,PayPal,Paid,792
+109,64,2,1,2025-04-19,Produit_2,Clothing,212,Client_64,31,Marseille,Bank Transfer,Paid,212
+110,49,13,3,2025-04-20,Produit_13,Electronics,479,Client_49,21,Bordeaux,PayPal,Paid,1437
+111,17,11,5,2025-04-21,Produit_11,Clothing,107,Client_17,20,Paris,PayPal,Paid,535
+112,44,11,3,2025-04-22,Produit_11,Clothing,107,Client_44,24,Bordeaux,Bank Transfer,Paid,321
+113,92,16,2,2025-04-23,Produit_16,Sports,153,Client_92,35,Marseille,PayPal,Paid,306
+114,30,11,1,2025-04-24,Produit_11,Clothing,107,Client_30,42,Bordeaux,Bank Transfer,Paid,107
+115,93,19,2,2025-04-25,Produit_19,Home,133,Client_93,64,Lille,Bank Transfer,Paid,266
+116,46,15,2,2025-04-26,Produit_15,Clothing,249,Client_46,26,Bordeaux,PayPal,Failed,498
+117,6,16,5,2025-04-27,Produit_16,Sports,153,Client_6,25,,PayPal,Paid,765
+118,99,11,1,2025-04-28,Produit_11,Clothing,107,Client_99,46,Lyon,Card,Paid,107
+119,37,16,1,2025-04-29,Produit_16,Sports,153,Client_37,64,Lille,Bank Transfer,Paid,153
+120,24,8,1,2025-04-30,Produit_8,Electronics,289,Client_24,19,Lyon,Card,Paid,289
+121,93,4,1,2025-05-01,Produit_4,Clothing,132,Client_93,64,Lille,PayPal,Paid,132
+122,46,8,1,2025-05-02,Produit_8,Electronics,289,Client_46,26,Bordeaux,Card,Paid,289
+123,53,4,5,2025-05-03,Produit_4,Clothing,132,Client_53,26,Lyon,Bank Transfer,Paid,660
+124,95,3,3,2025-05-04,Produit_3,Sports,193,Client_95,43,Paris,Card,Pending,579
+125,99,3,2,2025-05-05,Produit_3,Sports,193,Client_99,46,Lyon,Bank Transfer,Paid,386
+126,60,18,1,2025-05-06,Produit_18,Sports,210,Client_60,61,Marseille,PayPal,Paid,210
+127,97,19,3,2025-05-07,Produit_19,Home,133,Client_97,62,Paris,PayPal,Paid,399
+128,63,19,3,2025-05-08,Produit_19,Home,133,Client_63,52,Marseille,Bank Transfer,Paid,399
+129,85,5,2,2025-05-09,Produit_5,Home,410,Client_85,25,Lyon,PayPal,Paid,820
+130,32,18,5,2025-05-10,Produit_18,Sports,210,Client_32,44,Paris,PayPal,Paid,1050
+131,87,10,4,2025-05-11,Produit_10,Home,381,Client_87,40,Marseille,PayPal,Paid,1524
+132,33,6,4,2025-05-12,Produit_6,Electronics,264,Client_33,59,Bordeaux,PayPal,Paid,1056
+133,67,1,3,2025-05-13,Produit_1,Clothing,448,Client_67,67,Marseille,Bank Transfer,Paid,1344
+134,18,5,2,2025-05-14,Produit_5,Home,410,Client_18,39,Marseille,Card,Paid,820
+135,25,9,4,2025-05-15,Produit_9,Electronics,334,Client_25,38,Marseille,Card,Paid,1336
+136,95,12,3,2025-05-16,Produit_12,Clothing,207,Client_95,43,Paris,PayPal,Paid,621
+137,54,14,5,2025-05-17,Produit_14,Sports,404,Client_54,43,Marseille,Card,Paid,2020
+138,58,2,4,2025-05-18,Produit_2,Clothing,212,Client_58,64,Paris,Card,Paid,848
+139,67,17,3,2025-05-19,Produit_17,Clothing,106,Client_67,67,Marseille,PayPal,Paid,318
+140,46,14,3,2025-05-20,Produit_14,Sports,404,Client_46,26,Bordeaux,PayPal,Paid,1212
+141,24,13,1,2025-05-21,Produit_13,Electronics,479,Client_24,19,Lyon,Card,Paid,479
+142,32,9,5,2025-05-22,Produit_9,Electronics,334,Client_32,44,Paris,Bank Transfer,Paid,1670
+143,47,15,1,2025-05-23,Produit_15,Clothing,249,Client_47,56,Bordeaux,PayPal,Failed,249
+144,86,15,2,2025-05-24,Produit_15,Clothing,249,Client_86,31,Paris,Bank Transfer,Paid,498
+145,23,11,1,2025-05-25,Produit_11,Clothing,107,Client_23,55,Bordeaux,Card,Failed,107
+146,66,16,1,2025-05-26,Produit_16,Sports,153,Client_66,53,Lille,PayPal,Paid,153
+147,27,17,4,2025-05-27,Produit_17,Clothing,106,Client_27,29,Lyon,Bank Transfer,Paid,424
+148,2,4,3,2025-05-28,Produit_4,Clothing,132,Client_2,69,Paris,PayPal,Paid,396
+149,90,1,5,2025-05-29,Produit_1,Clothing,448,Client_90,33,Lille,Card,Paid,2240
+150,17,8,1,2025-05-30,Produit_8,Electronics,289,Client_17,20,Paris,Bank Transfer,Paid,289
+151,33,17,5,2025-05-31,Produit_17,Clothing,106,Client_33,59,Bordeaux,Card,Paid,530
+152,9,3,1,2025-06-01,Produit_3,Sports,193,Client_9,36,Paris,Card,Paid,193
+153,43,20,2,2025-06-02,Produit_20,Sports,196,Client_43,68,Marseille,PayPal,Paid,392
+154,48,15,1,2025-06-03,Produit_15,Clothing,249,Client_48,35,Lyon,Bank Transfer,Paid,249
+155,39,15,4,2025-06-04,Produit_15,Clothing,249,Client_39,61,Marseille,Card,Paid,996
+156,93,14,3,2025-06-05,Produit_14,Sports,404,Client_93,64,Lille,Card,Paid,1212
+157,42,14,2,2025-06-06,Produit_14,Sports,404,Client_42,54,Paris,Bank Transfer,Paid,808
+158,26,2,1,2025-06-07,Produit_2,Clothing,212,Client_26,50,,Card,Paid,212
+159,99,13,5,2025-06-08,Produit_13,Electronics,479,Client_99,46,Lyon,Card,Paid,2395
+160,50,14,2,2025-06-09,Produit_14,Sports,404,Client_50,42,Marseille,Bank Transfer,Paid,808
+161,25,19,2,2025-06-10,Produit_19,Home,133,Client_25,38,Marseille,Bank Transfer,Pending,266
+162,24,7,1,2025-06-11,Produit_7,Sports,303,Client_24,19,Lyon,Bank Transfer,Failed,303
+163,13,3,2,2025-06-12,Produit_3,Sports,193,Client_13,41,Lyon,Bank Transfer,Paid,386
+164,60,15,5,2025-06-13,Produit_15,Clothing,249,Client_60,61,Marseille,PayPal,Paid,1245
+165,7,14,2,2025-06-14,Produit_14,Sports,404,Client_7,38,Lyon,Bank Transfer,Paid,808
+166,57,11,5,2025-06-15,Produit_11,Clothing,107,Client_57,45,Bordeaux,PayPal,Paid,535
+167,36,15,1,2025-06-16,Produit_15,Clothing,249,Client_36,32,Paris,PayPal,Paid,249
+168,45,13,3,2025-06-17,Produit_13,Electronics,479,Client_45,38,Marseille,PayPal,Paid,1437
+169,20,18,2,2025-06-18,Produit_18,Sports,210,Client_20,41,Marseille,Card,Paid,420
+170,65,6,3,2025-06-19,Produit_6,Electronics,264,Client_65,34,Lyon,PayPal,Pending,792
+171,8,3,5,2025-06-20,Produit_3,Sports,193,Client_8,56,Lyon,PayPal,Paid,965
+172,16,19,2,2025-06-21,Produit_19,Home,133,Client_16,41,Lille,Card,Paid,266
+173,14,15,4,2025-06-22,Produit_15,Clothing,249,Client_14,53,Bordeaux,Card,Paid,996
+174,76,5,3,2025-06-23,Produit_5,Home,410,Client_76,43,Paris,Card,Pending,1230
+175,87,10,2,2025-06-24,Produit_10,Home,381,Client_87,40,Marseille,Bank Transfer,Paid,762
+176,15,7,3,2025-06-25,Produit_7,Sports,303,Client_15,57,Lille,Card,Paid,909
+177,92,17,2,2025-06-26,Produit_17,Clothing,106,Client_92,35,Marseille,Card,Paid,212
+178,98,7,1,2025-06-27,Produit_7,Sports,303,Client_98,58,Paris,PayPal,Paid,303
+179,66,12,3,2025-06-28,Produit_12,Clothing,207,Client_66,53,Lille,Card,Paid,621
+180,32,17,4,2025-06-29,Produit_17,Clothing,106,Client_32,44,Paris,Bank Transfer,Paid,424
+181,87,13,4,2025-06-30,Produit_13,Electronics,479,Client_87,40,Marseille,Card,Paid,1916
+182,63,20,5,2025-07-01,Produit_20,Sports,196,Client_63,52,Marseille,Bank Transfer,Paid,980
+183,86,4,2,2025-07-02,Produit_4,Clothing,132,Client_86,31,Paris,Card,Paid,264
+184,51,10,3,2025-07-03,Produit_10,Home,381,Client_51,31,Bordeaux,Card,Paid,1143
+185,25,3,5,2025-07-04,Produit_3,Sports,193,Client_25,38,Marseille,Card,Paid,965
+186,58,9,3,2025-07-05,Produit_9,Electronics,334,Client_58,64,Paris,Card,Paid,1002
+187,63,13,2,2025-07-06,Produit_13,Electronics,479,Client_63,52,Marseille,Bank Transfer,Paid,958
+188,62,18,4,2025-07-07,Produit_18,Sports,210,Client_62,64,Marseille,Bank Transfer,Paid,840
+189,22,15,1,2025-07-08,Produit_15,Clothing,249,Client_22,47,Paris,PayPal,Failed,249
+190,58,4,4,2025-07-09,Produit_4,Clothing,132,Client_58,64,Paris,Bank Transfer,Paid,528
+191,58,15,5,2025-07-10,Produit_15,Clothing,249,Client_58,64,Paris,Card,Paid,1245
+192,86,2,1,2025-07-11,Produit_2,Clothing,212,Client_86,31,Paris,PayPal,Paid,212
+193,49,15,5,2025-07-12,Produit_15,Clothing,249,Client_49,21,Bordeaux,PayPal,Paid,1245
+194,52,8,2,2025-07-13,Produit_8,Electronics,289,Client_52,67,Lyon,PayPal,Paid,578
+195,42,8,1,2025-07-14,Produit_8,Electronics,289,Client_42,54,Paris,Card,Paid,289
+196,70,17,5,2025-07-15,Produit_17,Clothing,106,Client_70,19,Paris,Bank Transfer,Paid,530
+197,15,12,2,2025-07-16,Produit_12,Clothing,207,Client_15,57,Lille,Card,Paid,414
+198,54,19,4,2025-07-17,Produit_19,Home,133,Client_54,43,Marseille,PayPal,Paid,532
+199,60,10,2,2025-07-18,Produit_10,Home,381,Client_60,61,Marseille,Card,Paid,762
+200,97,9,3,2025-07-19,Produit_9,Electronics,334,Client_97,62,Paris,Card,Paid,1002
+201,8,5,2,2025-07-20,Produit_5,Home,410,Client_8,56,Lyon,Bank Transfer,Paid,820
+202,53,6,2,2025-07-21,Produit_6,Electronics,264,Client_53,26,Lyon,Bank Transfer,Paid,528
+203,60,20,3,2025-07-22,Produit_20,Sports,196,Client_60,61,Marseille,PayPal,Paid,588
+204,5,2,5,2025-07-23,Produit_2,Clothing,212,Client_5,60,Paris,Card,Failed,1060
+205,68,13,5,2025-07-24,Produit_13,Electronics,479,Client_68,57,Paris,Card,Paid,2395
+206,6,6,2,2025-07-25,Produit_6,Electronics,264,Client_6,25,,Bank Transfer,Paid,528
+207,96,5,3,2025-07-26,Produit_5,Home,410,Client_96,42,Bordeaux,Card,Paid,1230
+208,94,1,3,2025-07-27,Produit_1,Clothing,448,Client_94,41,Lyon,Card,Paid,1344
+209,47,6,4,2025-07-28,Produit_6,Electronics,264,Client_47,56,Bordeaux,Card,Paid,1056
+210,99,6,5,2025-07-29,Produit_6,Electronics,264,Client_99,46,Lyon,Bank Transfer,Paid,1320
+211,55,16,1,2025-07-30,Produit_16,Sports,153,Client_55,19,Lille,PayPal,Paid,153
+212,40,4,5,2025-07-31,Produit_4,Clothing,132,Client_40,69,Bordeaux,PayPal,Paid,660
+213,52,11,5,2025-08-01,Produit_11,Clothing,107,Client_52,67,Lyon,Card,Paid,535
+214,16,9,4,2025-08-02,Produit_9,Electronics,334,Client_16,41,Lille,PayPal,Paid,1336
+215,13,3,1,2025-08-03,Produit_3,Sports,193,Client_13,41,Lyon,Bank Transfer,Paid,193
+216,30,19,4,2025-08-04,Produit_19,Home,133,Client_30,42,Bordeaux,Bank Transfer,Failed,532
+217,19,8,1,2025-08-05,Produit_8,Electronics,289,Client_19,19,Paris,PayPal,Paid,289
+218,17,5,2,2025-08-06,Produit_5,Home,410,Client_17,20,Paris,PayPal,Paid,820
+219,63,4,1,2025-08-07,Produit_4,Clothing,132,Client_63,52,Marseille,Card,Failed,132
+220,19,6,4,2025-08-08,Produit_6,Electronics,264,Client_19,19,Paris,PayPal,Paid,1056
+221,92,2,5,2025-08-09,Produit_2,Clothing,212,Client_92,35,Marseille,Card,Paid,1060
+222,58,20,1,2025-08-10,Produit_20,Sports,196,Client_58,64,Paris,Card,Paid,196
+223,55,11,1,2025-08-11,Produit_11,Clothing,107,Client_55,19,Lille,Bank Transfer,Paid,107
+224,90,4,3,2025-08-12,Produit_4,Clothing,132,Client_90,33,Lille,Bank Transfer,Paid,396
+225,90,15,5,2025-08-13,Produit_15,Clothing,249,Client_90,33,Lille,Bank Transfer,Paid,1245
+226,62,6,2,2025-08-14,Produit_6,Electronics,264,Client_62,64,Marseille,Bank Transfer,Paid,528
+227,23,17,4,2025-08-15,Produit_17,Clothing,106,Client_23,55,Bordeaux,PayPal,Pending,424
+228,9,6,2,2025-08-16,Produit_6,Electronics,264,Client_9,36,Paris,Bank Transfer,Paid,528
+229,12,19,5,2025-08-17,Produit_19,Home,133,Client_12,28,Paris,PayPal,Paid,665
+230,1,2,1,2025-08-18,Produit_2,Clothing,212,Client_1,56,Bordeaux,Bank Transfer,Paid,212
+231,58,15,1,2025-08-19,Produit_15,Clothing,249,Client_58,64,Paris,PayPal,Paid,249
+232,1,11,5,2025-08-20,Produit_11,Clothing,107,Client_1,56,Bordeaux,Card,Paid,535
+233,34,8,1,2025-08-21,Produit_8,Electronics,289,Client_34,45,Lille,PayPal,Pending,289
+234,96,19,1,2025-08-22,Produit_19,Home,133,Client_96,42,Bordeaux,PayPal,Paid,133
+235,48,13,1,2025-08-23,Produit_13,Electronics,479,Client_48,35,Lyon,Bank Transfer,Paid,479
+236,89,12,4,2025-08-24,Produit_12,Clothing,207,Client_89,38,Paris,PayPal,Paid,828
+237,1,5,4,2025-08-25,Produit_5,Home,410,Client_1,56,Bordeaux,Card,Pending,1640
+238,16,6,3,2025-08-26,Produit_6,Electronics,264,Client_16,41,Lille,Card,Paid,792
+239,61,4,2,2025-08-27,Produit_4,Clothing,132,Client_61,25,Marseille,Bank Transfer,Paid,264
+240,64,19,5,2025-08-28,Produit_19,Home,133,Client_64,31,Marseille,Card,Paid,665
+241,63,20,5,2025-08-29,Produit_20,Sports,196,Client_63,52,Marseille,PayPal,Pending,980
+242,69,1,5,2025-08-30,Produit_1,Clothing,448,Client_69,21,Paris,Card,Paid,2240
+243,22,20,3,2025-08-31,Produit_20,Sports,196,Client_22,47,Paris,Bank Transfer,Pending,588
+244,93,17,4,2025-09-01,Produit_17,Clothing,106,Client_93,64,Lille,PayPal,Paid,424
+245,67,12,3,2025-09-02,Produit_12,Clothing,207,Client_67,67,Marseille,Bank Transfer,Paid,621
+246,76,15,5,2025-09-03,Produit_15,Clothing,249,Client_76,43,Paris,PayPal,Paid,1245
+247,26,1,2,2025-09-04,Produit_1,Clothing,448,Client_26,50,,Card,Paid,896
+248,16,14,1,2025-09-05,Produit_14,Sports,404,Client_16,41,Lille,Bank Transfer,Paid,404
+249,51,6,4,2025-09-06,Produit_6,Electronics,264,Client_51,31,Bordeaux,Bank Transfer,Paid,1056
+250,86,5,4,2025-09-07,Produit_5,Home,410,Client_86,31,Paris,PayPal,Paid,1640
+251,57,11,3,2025-09-08,Produit_11,Clothing,107,Client_57,45,Bordeaux,Bank Transfer,Paid,321
+252,29,4,4,2025-09-09,Produit_4,Clothing,132,Client_29,61,Lyon,PayPal,Paid,528
+253,78,13,5,2025-09-10,Produit_13,Electronics,479,Client_78,51,Lyon,PayPal,Failed,2395
+254,92,11,5,2025-09-11,Produit_11,Clothing,107,Client_92,35,Marseille,PayPal,Pending,535
+255,69,3,3,2025-09-12,Produit_3,Sports,193,Client_69,21,Paris,PayPal,Paid,579
+256,47,1,5,2025-09-13,Produit_1,Clothing,448,Client_47,56,Bordeaux,Card,Paid,2240
+257,94,6,2,2025-09-14,Produit_6,Electronics,264,Client_94,41,Lyon,PayPal,Paid,528
+258,62,18,3,2025-09-15,Produit_18,Sports,210,Client_62,64,Marseille,Bank Transfer,Paid,630
+259,69,10,2,2025-09-16,Produit_10,Home,381,Client_69,21,Paris,Card,Paid,762
+260,76,5,1,2025-09-17,Produit_5,Home,410,Client_76,43,Paris,Bank Transfer,Paid,410
+261,16,10,2,2025-09-18,Produit_10,Home,381,Client_16,41,Lille,Card,Paid,762
+262,90,12,1,2025-09-19,Produit_12,Clothing,207,Client_90,33,Lille,PayPal,Paid,207
+263,90,2,1,2025-09-20,Produit_2,Clothing,212,Client_90,33,Lille,Card,Paid,212
+264,48,13,2,2025-09-21,Produit_13,Electronics,479,Client_48,35,Lyon,Card,Paid,958
+265,85,8,3,2025-09-22,Produit_8,Electronics,289,Client_85,25,Lyon,Bank Transfer,Paid,867
+266,39,2,5,2025-09-23,Produit_2,Clothing,212,Client_39,61,Marseille,Bank Transfer,Paid,1060
+267,100,20,5,2025-09-24,Produit_20,Sports,196,Client_100,32,Paris,PayPal,Paid,980
+268,33,1,1,2025-09-25,Produit_1,Clothing,448,Client_33,59,Bordeaux,Card,Paid,448
+269,94,5,1,2025-09-26,Produit_5,Home,410,Client_94,41,Lyon,Card,Paid,410
+270,23,9,3,2025-09-27,Produit_9,Electronics,334,Client_23,55,Bordeaux,Card,Pending,1002
+271,10,17,4,2025-09-28,Produit_17,Clothing,106,Client_10,40,Lyon,PayPal,Paid,424
+272,69,9,2,2025-09-29,Produit_9,Electronics,334,Client_69,21,Paris,PayPal,Paid,668
+273,100,11,1,2025-09-30,Produit_11,Clothing,107,Client_100,32,Paris,PayPal,Paid,107
+274,34,15,5,2025-10-01,Produit_15,Clothing,249,Client_34,45,Lille,PayPal,Paid,1245
+275,52,6,3,2025-10-02,Produit_6,Electronics,264,Client_52,67,Lyon,PayPal,Paid,792
+276,95,3,2,2025-10-03,Produit_3,Sports,193,Client_95,43,Paris,Bank Transfer,Paid,386
+277,10,17,3,2025-10-04,Produit_17,Clothing,106,Client_10,40,Lyon,Card,Paid,318
+278,19,5,2,2025-10-05,Produit_5,Home,410,Client_19,19,Paris,Card,Failed,820
+279,58,12,2,2025-10-06,Produit_12,Clothing,207,Client_58,64,Paris,Card,Paid,414
+280,96,18,1,2025-10-07,Produit_18,Sports,210,Client_96,42,Bordeaux,Card,Paid,210
+281,1,14,3,2025-10-08,Produit_14,Sports,404,Client_1,56,Bordeaux,Card,Paid,1212
+282,69,11,3,2025-10-09,Produit_11,Clothing,107,Client_69,21,Paris,Card,Paid,321
+283,4,9,5,2025-10-10,Produit_9,Electronics,334,Client_4,32,Paris,Card,Paid,1670
+284,16,2,5,2025-10-11,Produit_2,Clothing,212,Client_16,41,Lille,Card,Paid,1060
+285,24,12,1,2025-10-12,Produit_12,Clothing,207,Client_24,19,Lyon,Bank Transfer,Paid,207
+286,80,3,1,2025-10-13,Produit_3,Sports,193,Client_80,53,Bordeaux,Card,Paid,193
+287,2,3,4,2025-10-14,Produit_3,Sports,193,Client_2,69,Paris,Bank Transfer,Paid,772
+288,92,1,5,2025-10-15,Produit_1,Clothing,448,Client_92,35,Marseille,PayPal,Paid,2240
+289,32,8,2,2025-10-16,Produit_8,Electronics,289,Client_32,44,Paris,Card,Paid,578
+290,91,8,3,2025-10-17,Produit_8,Electronics,289,Client_91,62,Marseille,PayPal,Paid,867
+291,84,11,1,2025-10-18,Produit_11,Clothing,107,Client_84,32,Marseille,PayPal,Paid,107
+292,24,9,3,2025-10-19,Produit_9,Electronics,334,Client_24,19,Lyon,PayPal,Paid,1002
+293,12,5,3,2025-10-20,Produit_5,Home,410,Client_12,28,Paris,Bank Transfer,Paid,1230
+294,50,14,4,2025-10-21,Produit_14,Sports,404,Client_50,42,Marseille,PayPal,Paid,1616
+295,35,3,5,2025-10-22,Produit_3,Sports,193,Client_35,33,Lyon,PayPal,Failed,965
+296,33,5,1,2025-10-23,Produit_5,Home,410,Client_33,59,Bordeaux,PayPal,Paid,410
+297,33,5,3,2025-10-24,Produit_5,Home,410,Client_33,59,Bordeaux,Card,Paid,1230
+298,61,19,1,2025-10-25,Produit_19,Home,133,Client_61,25,Marseille,Card,Paid,133
+299,51,14,2,2025-10-26,Produit_14,Sports,404,Client_51,31,Bordeaux,Bank Transfer,Paid,808
+300,43,4,4,2025-10-27,Produit_4,Clothing,132,Client_43,68,Marseille,Bank Transfer,Pending,528
+301,12,13,2,2025-10-28,Produit_13,Electronics,479,Client_12,28,Paris,Card,Failed,958
+302,67,10,1,2025-10-29,Produit_10,Home,381,Client_67,67,Marseille,Bank Transfer,Paid,381
+303,65,18,1,2025-10-30,Produit_18,Sports,210,Client_65,34,Lyon,Card,Paid,210
+304,33,8,5,2025-10-31,Produit_8,Electronics,289,Client_33,59,Bordeaux,PayPal,Paid,1445
+305,40,8,3,2025-11-01,Produit_8,Electronics,289,Client_40,69,Bordeaux,PayPal,Pending,867
+306,74,7,3,2025-11-02,Produit_7,Sports,303,Client_74,46,Marseille,Bank Transfer,Paid,909
+307,43,8,2,2025-11-03,Produit_8,Electronics,289,Client_43,68,Marseille,Card,Paid,578
+308,44,14,4,2025-11-04,Produit_14,Sports,404,Client_44,24,Bordeaux,Card,Paid,1616
+309,29,19,3,2025-11-05,Produit_19,Home,133,Client_29,61,Lyon,Bank Transfer,Paid,399
+310,13,6,5,2025-11-06,Produit_6,Electronics,264,Client_13,41,Lyon,Card,Paid,1320
+311,12,1,2,2025-11-07,Produit_1,Clothing,448,Client_12,28,Paris,PayPal,Paid,896
+312,95,15,2,2025-11-08,Produit_15,Clothing,249,Client_95,43,Paris,Bank Transfer,Paid,498
+313,46,1,5,2025-11-09,Produit_1,Clothing,448,Client_46,26,Bordeaux,Bank Transfer,Paid,2240
+314,2,17,4,2025-11-10,Produit_17,Clothing,106,Client_2,69,Paris,Card,Paid,424
+315,35,1,5,2025-11-11,Produit_1,Clothing,448,Client_35,33,Lyon,Bank Transfer,Paid,2240
+316,87,15,4,2025-11-12,Produit_15,Clothing,249,Client_87,40,Marseille,Card,Paid,996
+317,81,2,5,2025-11-13,Produit_2,Clothing,212,Client_81,31,Paris,Card,Paid,1060
+318,90,14,5,2025-11-14,Produit_14,Sports,404,Client_90,33,Lille,Card,Paid,2020
+319,8,8,1,2025-11-15,Produit_8,Electronics,289,Client_8,56,Lyon,Card,Paid,289
+320,93,8,2,2025-11-16,Produit_8,Electronics,289,Client_93,64,Lille,Card,Paid,578
+321,26,19,5,2025-11-17,Produit_19,Home,133,Client_26,50,,Bank Transfer,Paid,665
+322,74,7,5,2025-11-18,Produit_7,Sports,303,Client_74,46,Marseille,PayPal,Paid,1515
+323,90,19,3,2025-11-19,Produit_19,Home,133,Client_90,33,Lille,PayPal,Paid,399
+324,34,6,2,2025-11-20,Produit_6,Electronics,264,Client_34,45,Lille,Bank Transfer,Paid,528
+325,7,6,3,2025-11-21,Produit_6,Electronics,264,Client_7,38,Lyon,Bank Transfer,Paid,792
+326,68,3,2,2025-11-22,Produit_3,Sports,193,Client_68,57,Paris,PayPal,Paid,386
+327,58,7,3,2025-11-23,Produit_7,Sports,303,Client_58,64,Paris,PayPal,Paid,909
+328,75,19,5,2025-11-24,Produit_19,Home,133,Client_75,35,Bordeaux,PayPal,Paid,665
+329,29,8,5,2025-11-25,Produit_8,Electronics,289,Client_29,61,Lyon,PayPal,Paid,1445
+330,36,10,1,2025-11-26,Produit_10,Home,381,Client_36,32,Paris,PayPal,Paid,381
+331,89,20,3,2025-11-27,Produit_20,Sports,196,Client_89,38,Paris,Card,Paid,588
+332,21,15,4,2025-11-28,Produit_15,Clothing,249,Client_21,61,Lille,Bank Transfer,Paid,996
+333,36,15,1,2025-11-29,Produit_15,Clothing,249,Client_36,32,Paris,Card,Paid,249
+334,10,1,3,2025-11-30,Produit_1,Clothing,448,Client_10,40,Lyon,PayPal,Paid,1344
+335,73,20,3,2025-12-01,Produit_20,Sports,196,Client_73,21,Paris,PayPal,Paid,588
+336,24,7,1,2025-12-02,Produit_7,Sports,303,Client_24,19,Lyon,PayPal,Paid,303
+337,64,4,5,2025-12-03,Produit_4,Clothing,132,Client_64,31,Marseille,Card,Paid,660
+338,99,6,3,2025-12-04,Produit_6,Electronics,264,Client_99,46,Lyon,Card,Paid,792
+339,49,1,5,2025-12-05,Produit_1,Clothing,448,Client_49,21,Bordeaux,PayPal,Paid,2240
+340,99,5,1,2025-12-06,Produit_5,Home,410,Client_99,46,Lyon,Card,Paid,410
+341,36,1,5,2025-12-07,Produit_1,Clothing,448,Client_36,32,Paris,Card,Paid,2240
+342,82,4,2,2025-12-08,Produit_4,Clothing,132,Client_82,48,Lyon,PayPal,Paid,264
+343,96,2,4,2025-12-09,Produit_2,Clothing,212,Client_96,42,Bordeaux,Card,Failed,848
+344,24,10,3,2025-12-10,Produit_10,Home,381,Client_24,19,Lyon,Bank Transfer,Pending,1143
+345,23,5,4,2025-12-11,Produit_5,Home,410,Client_23,55,Bordeaux,Bank Transfer,Paid,1640
+346,62,10,5,2025-12-12,Produit_10,Home,381,Client_62,64,Marseille,Bank Transfer,Paid,1905
+347,96,1,3,2025-12-13,Produit_1,Clothing,448,Client_96,42,Bordeaux,Bank Transfer,Paid,1344
+348,37,6,5,2025-12-14,Produit_6,Electronics,264,Client_37,64,Lille,PayPal,Paid,1320
+349,12,13,2,2025-12-15,Produit_13,Electronics,479,Client_12,28,Paris,PayPal,Paid,958
+350,55,15,1,2025-12-16,Produit_15,Clothing,249,Client_55,19,Lille,PayPal,Paid,249
+351,13,4,3,2025-12-17,Produit_4,Clothing,132,Client_13,41,Lyon,Bank Transfer,Paid,396
+352,23,13,2,2025-12-18,Produit_13,Electronics,479,Client_23,55,Bordeaux,Bank Transfer,Paid,958
+353,89,20,2,2025-12-19,Produit_20,Sports,196,Client_89,38,Paris,Card,Paid,392
+354,99,15,3,2025-12-20,Produit_15,Clothing,249,Client_99,46,Lyon,Card,Paid,747
+355,30,8,5,2025-12-21,Produit_8,Electronics,289,Client_30,42,Bordeaux,Bank Transfer,Paid,1445
+356,17,5,2,2025-12-22,Produit_5,Home,410,Client_17,20,Paris,Bank Transfer,Paid,820
+357,62,15,4,2025-12-23,Produit_15,Clothing,249,Client_62,64,Marseille,Bank Transfer,Paid,996
+358,84,4,2,2025-12-24,Produit_4,Clothing,132,Client_84,32,Marseille,Bank Transfer,Paid,264
+359,89,12,5,2025-12-25,Produit_12,Clothing,207,Client_89,38,Paris,Card,Paid,1035
+360,86,13,5,2025-12-26,Produit_13,Electronics,479,Client_86,31,Paris,Bank Transfer,Paid,2395
+361,13,2,4,2025-12-27,Produit_2,Clothing,212,Client_13,41,Lyon,Card,Paid,848
+362,59,19,2,2025-12-28,Produit_19,Home,133,Client_59,24,Bordeaux,Bank Transfer,Paid,266
+363,19,19,5,2025-12-29,Produit_19,Home,133,Client_19,19,Paris,Bank Transfer,Paid,665
+364,49,4,3,2025-12-30,Produit_4,Clothing,132,Client_49,21,Bordeaux,Bank Transfer,Pending,396
+365,100,4,1,2025-12-31,Produit_4,Clothing,132,Client_100,32,Paris,Card,Paid,132
+366,12,11,1,2026-01-01,Produit_11,Clothing,107,Client_12,28,Paris,Card,Paid,107
+367,61,5,1,2026-01-02,Produit_5,Home,410,Client_61,25,Marseille,PayPal,Pending,410
+368,19,20,2,2026-01-03,Produit_20,Sports,196,Client_19,19,Paris,Bank Transfer,Paid,392
+369,76,11,4,2026-01-04,Produit_11,Clothing,107,Client_76,43,Paris,PayPal,Paid,428
+370,9,10,5,2026-01-05,Produit_10,Home,381,Client_9,36,Paris,PayPal,Paid,1905
+371,71,8,3,2026-01-06,Produit_8,Electronics,289,Client_71,23,Paris,Card,Paid,867
+372,28,6,3,2026-01-07,Produit_6,Electronics,264,Client_28,39,Paris,Card,Paid,792
+373,78,6,2,2026-01-08,Produit_6,Electronics,264,Client_78,51,Lyon,PayPal,Paid,528
+374,95,8,1,2026-01-09,Produit_8,Electronics,289,Client_95,43,Paris,Bank Transfer,Paid,289
+375,52,15,2,2026-01-10,Produit_15,Clothing,249,Client_52,67,Lyon,Card,Paid,498
+376,83,14,4,2026-01-11,Produit_14,Sports,404,Client_83,65,Lille,Bank Transfer,Paid,1616
+377,16,11,4,2026-01-12,Produit_11,Clothing,107,Client_16,41,Lille,Bank Transfer,Paid,428
+378,69,12,5,2026-01-13,Produit_12,Clothing,207,Client_69,21,Paris,PayPal,Paid,1035
+379,99,13,5,2026-01-14,Produit_13,Electronics,479,Client_99,46,Lyon,PayPal,Paid,2395
+380,12,8,4,2026-01-15,Produit_8,Electronics,289,Client_12,28,Paris,PayPal,Paid,1156
+381,25,18,4,2026-01-16,Produit_18,Sports,210,Client_25,38,Marseille,PayPal,Paid,840
+382,52,1,4,2026-01-17,Produit_1,Clothing,448,Client_52,67,Lyon,Card,Paid,1792
+383,85,15,2,2026-01-18,Produit_15,Clothing,249,Client_85,25,Lyon,Card,Paid,498
+384,100,8,4,2026-01-19,Produit_8,Electronics,289,Client_100,32,Paris,PayPal,Paid,1156
+385,53,11,3,2026-01-20,Produit_11,Clothing,107,Client_53,26,Lyon,Card,Failed,321
+386,23,12,1,2026-01-21,Produit_12,Clothing,207,Client_23,55,Bordeaux,PayPal,Paid,207
+387,16,12,4,2026-01-22,Produit_12,Clothing,207,Client_16,41,Lille,Bank Transfer,Paid,828
+388,57,4,1,2026-01-23,Produit_4,Clothing,132,Client_57,45,Bordeaux,Bank Transfer,Paid,132
+389,39,16,2,2026-01-24,Produit_16,Sports,153,Client_39,61,Marseille,Bank Transfer,Paid,306
+390,53,4,1,2026-01-25,Produit_4,Clothing,132,Client_53,26,Lyon,PayPal,Paid,132
+391,42,5,2,2026-01-26,Produit_5,Home,410,Client_42,54,Paris,Bank Transfer,Pending,820
+392,58,5,3,2026-01-27,Produit_5,Home,410,Client_58,64,Paris,Card,Paid,1230
+393,39,8,2,2026-01-28,Produit_8,Electronics,289,Client_39,61,Marseille,Bank Transfer,Paid,578
+394,14,10,2,2026-01-29,Produit_10,Home,381,Client_14,53,Bordeaux,Bank Transfer,Paid,762
+395,95,17,5,2026-01-30,Produit_17,Clothing,106,Client_95,43,Paris,Bank Transfer,Paid,530
+396,5,9,4,2026-01-31,Produit_9,Electronics,334,Client_5,60,Paris,Card,Paid,1336
+397,35,19,4,2026-02-01,Produit_19,Home,133,Client_35,33,Lyon,PayPal,Paid,532
+398,87,14,3,2026-02-02,Produit_14,Sports,404,Client_87,40,Marseille,Card,Paid,1212
+399,93,8,3,2026-02-03,Produit_8,Electronics,289,Client_93,64,Lille,PayPal,Paid,867
+400,75,9,4,2026-02-04,Produit_9,Electronics,334,Client_75,35,Bordeaux,PayPal,Paid,1336
+401,18,11,5,2026-02-05,Produit_11,Clothing,107,Client_18,39,Marseille,Bank Transfer,Pending,535
+402,76,1,4,2026-02-06,Produit_1,Clothing,448,Client_76,43,Paris,PayPal,Paid,1792
+403,9,14,5,2026-02-07,Produit_14,Sports,404,Client_9,36,Paris,Card,Paid,2020
+404,74,5,3,2026-02-08,Produit_5,Home,410,Client_74,46,Marseille,Card,Paid,1230
+405,58,14,1,2026-02-09,Produit_14,Sports,404,Client_58,64,Paris,PayPal,Paid,404
+406,17,4,3,2026-02-10,Produit_4,Clothing,132,Client_17,20,Paris,Bank Transfer,Pending,396
+407,7,1,3,2026-02-11,Produit_1,Clothing,448,Client_7,38,Lyon,Bank Transfer,Paid,1344
+408,46,19,2,2026-02-12,Produit_19,Home,133,Client_46,26,Bordeaux,Card,Paid,266
+409,13,8,2,2026-02-13,Produit_8,Electronics,289,Client_13,41,Lyon,Bank Transfer,Failed,578
+410,40,15,2,2026-02-14,Produit_15,Clothing,249,Client_40,69,Bordeaux,PayPal,Paid,498
+411,42,15,2,2026-02-15,Produit_15,Clothing,249,Client_42,54,Paris,PayPal,Pending,498
+412,9,9,5,2026-02-16,Produit_9,Electronics,334,Client_9,36,Paris,Card,Paid,1670
+413,50,9,4,2026-02-17,Produit_9,Electronics,334,Client_50,42,Marseille,PayPal,Paid,1336
+414,27,10,1,2026-02-18,Produit_10,Home,381,Client_27,29,Lyon,Card,Paid,381
+415,66,20,3,2026-02-19,Produit_20,Sports,196,Client_66,53,Lille,PayPal,Paid,588
+416,5,9,5,2026-02-20,Produit_9,Electronics,334,Client_5,60,Paris,Card,Failed,1670
+417,29,3,1,2026-02-21,Produit_3,Sports,193,Client_29,61,Lyon,Bank Transfer,Paid,193
+418,37,20,5,2026-02-22,Produit_20,Sports,196,Client_37,64,Lille,PayPal,Paid,980
+419,38,11,5,2026-02-23,Produit_11,Clothing,107,Client_38,68,Lille,PayPal,Paid,535
+420,83,6,3,2026-02-24,Produit_6,Electronics,264,Client_83,65,Lille,Card,Paid,792
+421,8,2,4,2026-02-25,Produit_2,Clothing,212,Client_8,56,Lyon,Card,Paid,848
+422,65,7,2,2026-02-26,Produit_7,Sports,303,Client_65,34,Lyon,PayPal,Failed,606
+423,86,18,4,2026-02-27,Produit_18,Sports,210,Client_86,31,Paris,Card,Paid,840
+424,17,2,3,2026-02-28,Produit_2,Clothing,212,Client_17,20,Paris,PayPal,Paid,636
+425,71,17,3,2026-03-01,Produit_17,Clothing,106,Client_71,23,Paris,Bank Transfer,Paid,318
+426,89,11,3,2026-03-02,Produit_11,Clothing,107,Client_89,38,Paris,Card,Paid,321
+427,45,12,1,2026-03-03,Produit_12,Clothing,207,Client_45,38,Marseille,PayPal,Paid,207
+428,4,19,4,2026-03-04,Produit_19,Home,133,Client_4,32,Paris,Bank Transfer,Paid,532
+429,36,7,4,2026-03-05,Produit_7,Sports,303,Client_36,32,Paris,Bank Transfer,Pending,1212
+430,70,20,5,2026-03-06,Produit_20,Sports,196,Client_70,19,Paris,PayPal,Paid,980
+431,31,6,5,2026-03-07,Produit_6,Electronics,264,Client_31,66,Lyon,Card,Paid,1320
+432,19,1,5,2026-03-08,Produit_1,Clothing,448,Client_19,19,Paris,PayPal,Paid,2240
+433,61,17,3,2026-03-09,Produit_17,Clothing,106,Client_61,25,Marseille,Bank Transfer,Pending,318
+434,54,11,4,2026-03-10,Produit_11,Clothing,107,Client_54,43,Marseille,PayPal,Paid,428
+435,39,18,3,2026-03-11,Produit_18,Sports,210,Client_39,61,Marseille,Card,Paid,630
+436,91,17,1,2026-03-12,Produit_17,Clothing,106,Client_91,62,Marseille,Bank Transfer,Paid,106
+437,74,7,5,2026-03-13,Produit_7,Sports,303,Client_74,46,Marseille,PayPal,Paid,1515
+438,90,17,3,2026-03-14,Produit_17,Clothing,106,Client_90,33,Lille,Card,Paid,318
+439,19,20,3,2026-03-15,Produit_20,Sports,196,Client_19,19,Paris,Bank Transfer,Paid,588
+440,39,9,1,2026-03-16,Produit_9,Electronics,334,Client_39,61,Marseille,Card,Paid,334
+441,67,17,2,2026-03-17,Produit_17,Clothing,106,Client_67,67,Marseille,Bank Transfer,Paid,212
+442,45,20,4,2026-03-18,Produit_20,Sports,196,Client_45,38,Marseille,PayPal,Pending,784
+443,13,8,2,2026-03-19,Produit_8,Electronics,289,Client_13,41,Lyon,Card,Paid,578
+444,92,17,5,2026-03-20,Produit_17,Clothing,106,Client_92,35,Marseille,Bank Transfer,Paid,530
+445,58,7,3,2026-03-21,Produit_7,Sports,303,Client_58,64,Paris,Card,Paid,909
+446,20,1,1,2026-03-22,Produit_1,Clothing,448,Client_20,41,Marseille,Card,Paid,448
+447,92,13,1,2026-03-23,Produit_13,Electronics,479,Client_92,35,Marseille,PayPal,Paid,479
+448,72,19,4,2026-03-24,Produit_19,Home,133,Client_72,59,Lyon,Card,Paid,532
+449,61,19,2,2026-03-25,Produit_19,Home,133,Client_61,25,Marseille,Bank Transfer,Paid,266
+450,39,17,4,2026-03-26,Produit_17,Clothing,106,Client_39,61,Marseille,Bank Transfer,Paid,424
+451,1,13,3,2026-03-27,Produit_13,Electronics,479,Client_1,56,Bordeaux,Bank Transfer,Paid,1437
+452,3,16,4,2026-03-28,Produit_16,Sports,153,Client_3,46,Paris,Bank Transfer,Paid,612
+453,77,8,1,2026-03-29,Produit_8,Electronics,289,Client_77,61,Lyon,PayPal,Paid,289
+454,92,19,1,2026-03-30,Produit_19,Home,133,Client_92,35,Marseille,Card,Paid,133
+455,62,18,5,2026-03-31,Produit_18,Sports,210,Client_62,64,Marseille,PayPal,Paid,1050
+456,63,1,5,2026-04-01,Produit_1,Clothing,448,Client_63,52,Marseille,Card,Paid,2240
+457,25,14,3,2026-04-02,Produit_14,Sports,404,Client_25,38,Marseille,Card,Paid,1212
+458,56,19,2,2026-04-03,Produit_19,Home,133,Client_56,37,Lille,Card,Paid,266
+459,33,15,4,2026-04-04,Produit_15,Clothing,249,Client_33,59,Bordeaux,PayPal,Paid,996
+460,38,18,3,2026-04-05,Produit_18,Sports,210,Client_38,68,Lille,Card,Paid,630
+461,6,2,5,2026-04-06,Produit_2,Clothing,212,Client_6,25,,PayPal,Paid,1060
+462,58,17,4,2026-04-07,Produit_17,Clothing,106,Client_58,64,Paris,Bank Transfer,Pending,424
+463,44,18,5,2026-04-08,Produit_18,Sports,210,Client_44,24,Bordeaux,Bank Transfer,Pending,1050
+464,45,6,4,2026-04-09,Produit_6,Electronics,264,Client_45,38,Marseille,Card,Pending,1056
+465,32,19,2,2026-04-10,Produit_19,Home,133,Client_32,44,Paris,PayPal,Paid,266
+466,45,4,3,2026-04-11,Produit_4,Clothing,132,Client_45,38,Marseille,Bank Transfer,Paid,396
+467,61,1,4,2026-04-12,Produit_1,Clothing,448,Client_61,25,Marseille,PayPal,Failed,1792
+468,47,8,1,2026-04-13,Produit_8,Electronics,289,Client_47,56,Bordeaux,PayPal,Paid,289
+469,21,7,1,2026-04-14,Produit_7,Sports,303,Client_21,61,Lille,Card,Paid,303
+470,80,3,4,2026-04-15,Produit_3,Sports,193,Client_80,53,Bordeaux,Bank Transfer,Paid,772
+471,85,10,4,2026-04-16,Produit_10,Home,381,Client_85,25,Lyon,Card,Paid,1524
+472,75,10,4,2026-04-17,Produit_10,Home,381,Client_75,35,Bordeaux,Card,Pending,1524
+473,36,19,1,2026-04-18,Produit_19,Home,133,Client_36,32,Paris,Bank Transfer,Paid,133
+474,99,14,1,2026-04-19,Produit_14,Sports,404,Client_99,46,Lyon,Bank Transfer,Paid,404
+475,19,2,4,2026-04-20,Produit_2,Clothing,212,Client_19,19,Paris,PayPal,Paid,848
+476,20,1,5,2026-04-21,Produit_1,Clothing,448,Client_20,41,Marseille,Bank Transfer,Paid,2240
+477,57,18,5,2026-04-22,Produit_18,Sports,210,Client_57,45,Bordeaux,PayPal,Paid,1050
+478,18,7,2,2026-04-23,Produit_7,Sports,303,Client_18,39,Marseille,PayPal,Paid,606
+479,47,8,3,2026-04-24,Produit_8,Electronics,289,Client_47,56,Bordeaux,PayPal,Paid,867
+480,49,1,5,2026-04-25,Produit_1,Clothing,448,Client_49,21,Bordeaux,Bank Transfer,Failed,2240
+481,14,3,1,2026-04-26,Produit_3,Sports,193,Client_14,53,Bordeaux,Card,Paid,193
+482,15,8,5,2026-04-27,Produit_8,Electronics,289,Client_15,57,Lille,PayPal,Paid,1445
+483,31,15,2,2026-04-28,Produit_15,Clothing,249,Client_31,66,Lyon,Card,Paid,498
+484,1,5,2,2026-04-29,Produit_5,Home,410,Client_1,56,Bordeaux,Card,Paid,820
+485,54,3,3,2026-04-30,Produit_3,Sports,193,Client_54,43,Marseille,Bank Transfer,Paid,579
+486,3,19,5,2026-05-01,Produit_19,Home,133,Client_3,46,Paris,Card,Paid,665
+487,16,1,1,2026-05-02,Produit_1,Clothing,448,Client_16,41,Lille,Card,Paid,448
+488,87,15,1,2026-05-03,Produit_15,Clothing,249,Client_87,40,Marseille,Bank Transfer,Paid,249
+489,57,8,4,2026-05-04,Produit_8,Electronics,289,Client_57,45,Bordeaux,PayPal,Pending,1156
+490,75,2,1,2026-05-05,Produit_2,Clothing,212,Client_75,35,Bordeaux,Card,Paid,212
+491,12,3,3,2026-05-06,Produit_3,Sports,193,Client_12,28,Paris,Bank Transfer,Paid,579
+492,74,14,3,2026-05-07,Produit_14,Sports,404,Client_74,46,Marseille,Card,Paid,1212
+493,96,14,1,2026-05-08,Produit_14,Sports,404,Client_96,42,Bordeaux,Card,Paid,404
+494,16,11,1,2026-05-09,Produit_11,Clothing,107,Client_16,41,Lille,PayPal,Paid,107
+495,72,16,4,2026-05-10,Produit_16,Sports,153,Client_72,59,Lyon,Card,Pending,612
+496,76,4,1,2026-05-11,Produit_4,Clothing,132,Client_76,43,Paris,Bank Transfer,Pending,132
+497,24,20,4,2026-05-12,Produit_20,Sports,196,Client_24,19,Lyon,Card,Paid,784
+498,28,5,4,2026-05-13,Produit_5,Home,410,Client_28,39,Paris,PayPal,Failed,1640
+499,8,14,1,2026-05-14,Produit_14,Sports,404,Client_8,56,Lyon,PayPal,Paid,404
+500,92,16,2,2026-05-15,Produit_16,Sports,153,Client_92,35,Marseille,Bank Transfer,Paid,306

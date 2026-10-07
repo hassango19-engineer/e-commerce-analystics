@@ -1,0 +1,501 @@
+order_id,customer_id,product_id,quantity,order_date,product_name,category,price,price_category,name,age,city,age_group,payment_method,payment_status,payment_success,payment_failed,revenue,order_value_category
+1,70,4,2,2025-01-01,Produit_4,Clothing,132.0,Medium,Client_70,19.0,Paris,18-25,Paypal,Paid,True,False,264.0,Medium
+2,80,8,2,2025-01-02,Produit_8,Electronics,289.0,High,Client_80,53.0,Bordeaux,46-60,Card,Paid,True,False,578.0,High
+3,93,18,1,2025-01-03,Produit_18,Sports,210.0,High,Client_93,64.0,Lille,60+,Paypal,Paid,True,False,210.0,Medium
+4,3,5,5,2025-01-04,Produit_5,Home,410.0,Premium,Client_3,46.0,Paris,46-60,Card,Paid,True,False,2050.0,Very High
+5,20,9,3,2025-01-05,Produit_9,Electronics,334.0,Premium,Client_20,41.0,Marseille,36-45,Card,Failed,False,True,1002.0,Very High
+6,59,4,5,2025-01-06,Produit_4,Clothing,132.0,Medium,Client_59,24.0,Bordeaux,18-25,Card,Paid,True,False,660.0,High
+7,36,17,3,2025-01-07,Produit_17,Clothing,106.0,Medium,Client_36,32.0,Paris,26-35,Card,Paid,True,False,318.0,Medium
+8,19,9,4,2025-01-08,Produit_9,Electronics,334.0,Premium,Client_19,19.0,Paris,18-25,Paypal,Paid,True,False,1336.0,Very High
+9,90,1,5,2025-01-09,Produit_1,Clothing,448.0,Premium,Client_90,33.0,Lille,26-35,Card,Paid,True,False,2240.0,Very High
+10,67,20,4,2025-01-10,Produit_20,Sports,196.0,High,Client_67,67.0,Marseille,60+,Card,Paid,True,False,784.0,High
+11,19,13,2,2025-01-11,Produit_13,Electronics,479.0,Premium,Client_19,19.0,Paris,18-25,Paypal,Paid,True,False,958.0,High
+12,20,16,2,2025-01-12,Produit_16,Sports,153.0,High,Client_20,41.0,Marseille,36-45,Paypal,Failed,False,True,306.0,Medium
+13,96,13,1,2025-01-13,Produit_13,Electronics,479.0,Premium,Client_96,42.0,Bordeaux,36-45,Bank Transfer,Paid,True,False,479.0,Medium
+14,71,14,5,2025-01-14,Produit_14,Sports,404.0,Premium,Client_71,23.0,Paris,18-25,Paypal,Paid,True,False,2020.0,Very High
+15,52,3,4,2025-01-15,Produit_3,Sports,193.0,High,Client_52,67.0,Lyon,60+,Paypal,Paid,True,False,772.0,High
+16,33,6,3,2025-01-16,Produit_6,Electronics,264.0,High,Client_33,59.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,792.0,High
+17,40,18,2,2025-01-17,Produit_18,Sports,210.0,High,Client_40,69.0,Bordeaux,60+,Paypal,Paid,True,False,420.0,Medium
+18,39,19,2,2025-01-18,Produit_19,Home,133.0,Medium,Client_39,61.0,Marseille,60+,Paypal,Paid,True,False,266.0,Medium
+19,82,5,3,2025-01-19,Produit_5,Home,410.0,Premium,Client_82,48.0,Lyon,46-60,Paypal,Paid,True,False,1230.0,Very High
+20,1,15,4,2025-01-20,Produit_15,Clothing,249.0,High,Client_1,56.0,Bordeaux,46-60,Paypal,Paid,True,False,996.0,High
+21,11,2,4,2025-01-21,Produit_2,Clothing,212.0,High,Client_11,28.0,Lyon,26-35,Bank Transfer,Paid,True,False,848.0,High
+22,92,10,5,2025-01-22,Produit_10,Home,381.0,Premium,Client_92,35.0,Marseille,26-35,Paypal,Paid,True,False,1905.0,Very High
+23,57,18,5,2025-01-23,Produit_18,Sports,210.0,High,Client_57,45.0,Bordeaux,36-45,Paypal,Pending,False,False,1050.0,Very High
+24,89,13,1,2025-01-24,Produit_13,Electronics,479.0,Premium,Client_89,38.0,Paris,36-45,Bank Transfer,Paid,True,False,479.0,Medium
+25,50,5,2,2025-01-25,Produit_5,Home,410.0,Premium,Client_50,42.0,Marseille,36-45,Card,Paid,True,False,820.0,High
+26,23,1,5,2025-01-26,Produit_1,Clothing,448.0,Premium,Client_23,55.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,2240.0,Very High
+27,31,1,4,2025-01-27,Produit_1,Clothing,448.0,Premium,Client_31,66.0,Lyon,60+,Card,Failed,False,True,1792.0,Very High
+28,94,18,3,2025-01-28,Produit_18,Sports,210.0,High,Client_94,41.0,Lyon,36-45,Bank Transfer,Pending,False,False,630.0,High
+29,42,15,4,2025-01-29,Produit_15,Clothing,249.0,High,Client_42,54.0,Paris,46-60,Bank Transfer,Paid,True,False,996.0,High
+30,99,17,2,2025-01-30,Produit_17,Clothing,106.0,Medium,Client_99,46.0,Lyon,46-60,Paypal,Paid,True,False,212.0,Medium
+31,7,11,4,2025-01-31,Produit_11,Clothing,107.0,Medium,Client_7,38.0,Lyon,36-45,Card,Paid,True,False,428.0,Medium
+32,16,17,1,2025-02-01,Produit_17,Clothing,106.0,Medium,Client_16,41.0,Lille,36-45,Paypal,Paid,True,False,106.0,Medium
+33,90,13,2,2025-02-02,Produit_13,Electronics,479.0,Premium,Client_90,33.0,Lille,26-35,Card,Paid,True,False,958.0,High
+34,60,1,3,2025-02-03,Produit_1,Clothing,448.0,Premium,Client_60,61.0,Marseille,60+,Bank Transfer,Paid,True,False,1344.0,Very High
+35,2,2,1,2025-02-04,Produit_2,Clothing,212.0,High,Client_2,69.0,Paris,60+,Bank Transfer,Paid,True,False,212.0,Medium
+36,1,9,2,2025-02-05,Produit_9,Electronics,334.0,Premium,Client_1,56.0,Bordeaux,46-60,Card,Paid,True,False,668.0,High
+37,48,3,3,2025-02-06,Produit_3,Sports,193.0,High,Client_48,35.0,Lyon,26-35,Paypal,Paid,True,False,579.0,High
+38,12,1,1,2025-02-07,Produit_1,Clothing,448.0,Premium,Client_12,28.0,Paris,26-35,Paypal,Paid,True,False,448.0,Medium
+39,69,16,1,2025-02-08,Produit_16,Sports,153.0,High,Client_69,21.0,Paris,18-25,Paypal,Paid,True,False,153.0,Medium
+40,37,6,2,2025-02-09,Produit_6,Electronics,264.0,High,Client_37,64.0,Lille,60+,Paypal,Paid,True,False,528.0,High
+41,32,17,5,2025-02-10,Produit_17,Clothing,106.0,Medium,Client_32,44.0,Paris,36-45,Bank Transfer,Paid,True,False,530.0,High
+42,9,5,1,2025-02-11,Produit_5,Home,410.0,Premium,Client_9,36.0,Paris,36-45,Bank Transfer,Paid,True,False,410.0,Medium
+43,99,5,1,2025-02-12,Produit_5,Home,410.0,Premium,Client_99,46.0,Lyon,46-60,Bank Transfer,Paid,True,False,410.0,Medium
+44,19,6,3,2025-02-13,Produit_6,Electronics,264.0,High,Client_19,19.0,Paris,18-25,Bank Transfer,Pending,False,False,792.0,High
+45,48,3,4,2025-02-14,Produit_3,Sports,193.0,High,Client_48,35.0,Lyon,26-35,Bank Transfer,Paid,True,False,772.0,High
+46,80,5,2,2025-02-15,Produit_5,Home,410.0,Premium,Client_80,53.0,Bordeaux,46-60,Paypal,Paid,True,False,820.0,High
+47,3,5,2,2025-02-16,Produit_5,Home,410.0,Premium,Client_3,46.0,Paris,46-60,Paypal,Paid,True,False,820.0,High
+48,20,10,5,2025-02-17,Produit_10,Home,381.0,Premium,Client_20,41.0,Marseille,36-45,Paypal,Paid,True,False,1905.0,Very High
+49,24,10,5,2025-02-18,Produit_10,Home,381.0,Premium,Client_24,19.0,Lyon,18-25,Paypal,Paid,True,False,1905.0,Very High
+50,54,19,2,2025-02-19,Produit_19,Home,133.0,Medium,Client_54,43.0,Marseille,36-45,Bank Transfer,Paid,True,False,266.0,Medium
+51,33,17,5,2025-02-20,Produit_17,Clothing,106.0,Medium,Client_33,59.0,Bordeaux,46-60,Bank Transfer,Pending,False,False,530.0,High
+52,24,14,3,2025-02-21,Produit_14,Sports,404.0,Premium,Client_24,19.0,Lyon,18-25,Bank Transfer,Paid,True,False,1212.0,Very High
+53,75,9,2,2025-02-22,Produit_9,Electronics,334.0,Premium,Client_75,35.0,Bordeaux,26-35,Card,Failed,False,True,668.0,High
+54,72,14,5,2025-02-23,Produit_14,Sports,404.0,Premium,Client_72,59.0,Lyon,46-60,Paypal,Pending,False,False,2020.0,Very High
+55,36,1,2,2025-02-24,Produit_1,Clothing,448.0,Premium,Client_36,32.0,Paris,26-35,Paypal,Paid,True,False,896.0,High
+56,38,19,4,2025-02-25,Produit_19,Home,133.0,Medium,Client_38,68.0,Lille,60+,Bank Transfer,Pending,False,False,532.0,High
+57,84,13,1,2025-02-26,Produit_13,Electronics,479.0,Premium,Client_84,32.0,Marseille,26-35,Paypal,Paid,True,False,479.0,Medium
+58,99,13,2,2025-02-27,Produit_13,Electronics,479.0,Premium,Client_99,46.0,Lyon,46-60,Paypal,Paid,True,False,958.0,High
+59,89,4,1,2025-02-28,Produit_4,Clothing,132.0,Medium,Client_89,38.0,Paris,36-45,Bank Transfer,Paid,True,False,132.0,Medium
+60,99,1,5,2025-03-01,Produit_1,Clothing,448.0,Premium,Client_99,46.0,Lyon,46-60,Card,Pending,False,False,2240.0,Very High
+61,25,17,1,2025-03-02,Produit_17,Clothing,106.0,Medium,Client_25,38.0,Marseille,36-45,Card,Pending,False,False,106.0,Medium
+62,93,8,2,2025-03-03,Produit_8,Electronics,289.0,High,Client_93,64.0,Lille,60+,Card,Paid,True,False,578.0,High
+63,18,2,4,2025-03-04,Produit_2,Clothing,212.0,High,Client_18,39.0,Marseille,36-45,Bank Transfer,Paid,True,False,848.0,High
+64,82,8,5,2025-03-05,Produit_8,Electronics,289.0,High,Client_82,48.0,Lyon,46-60,Paypal,Paid,True,False,1445.0,Very High
+65,66,7,2,2025-03-06,Produit_7,Sports,303.0,Premium,Client_66,53.0,Lille,46-60,Bank Transfer,Paid,True,False,606.0,High
+66,54,2,5,2025-03-07,Produit_2,Clothing,212.0,High,Client_54,43.0,Marseille,36-45,Bank Transfer,Paid,True,False,1060.0,Very High
+67,35,3,3,2025-03-08,Produit_3,Sports,193.0,High,Client_35,33.0,Lyon,26-35,Paypal,Paid,True,False,579.0,High
+68,80,18,1,2025-03-09,Produit_18,Sports,210.0,High,Client_80,53.0,Bordeaux,46-60,Card,Paid,True,False,210.0,Medium
+69,61,12,3,2025-03-10,Produit_12,Clothing,207.0,High,Client_61,25.0,Marseille,18-25,Card,Paid,True,False,621.0,High
+70,41,1,2,2025-03-11,Produit_1,Clothing,448.0,Premium,Client_41,20.0,Lyon,18-25,Bank Transfer,Failed,False,True,896.0,High
+71,100,12,4,2025-03-12,Produit_12,Clothing,207.0,High,Client_100,32.0,Paris,26-35,Card,Paid,True,False,828.0,High
+72,33,5,5,2025-03-13,Produit_5,Home,410.0,Premium,Client_33,59.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,2050.0,Very High
+73,68,17,1,2025-03-14,Produit_17,Clothing,106.0,Medium,Client_68,57.0,Paris,46-60,Bank Transfer,Paid,True,False,106.0,Medium
+74,33,16,5,2025-03-15,Produit_16,Sports,153.0,High,Client_33,59.0,Bordeaux,46-60,Paypal,Pending,False,False,765.0,High
+75,14,15,2,2025-03-16,Produit_15,Clothing,249.0,High,Client_14,53.0,Bordeaux,46-60,Paypal,Pending,False,False,498.0,Medium
+76,21,15,5,2025-03-17,Produit_15,Clothing,249.0,High,Client_21,61.0,Lille,60+,Paypal,Paid,True,False,1245.0,Very High
+77,48,5,1,2025-03-18,Produit_5,Home,410.0,Premium,Client_48,35.0,Lyon,26-35,Bank Transfer,Paid,True,False,410.0,Medium
+78,20,14,2,2025-03-19,Produit_14,Sports,404.0,Premium,Client_20,41.0,Marseille,36-45,Paypal,Paid,True,False,808.0,High
+79,8,2,5,2025-03-20,Produit_2,Clothing,212.0,High,Client_8,56.0,Lyon,46-60,Card,Paid,True,False,1060.0,Very High
+80,7,11,4,2025-03-21,Produit_11,Clothing,107.0,Medium,Client_7,38.0,Lyon,36-45,Card,Paid,True,False,428.0,Medium
+81,67,19,2,2025-03-22,Produit_19,Home,133.0,Medium,Client_67,67.0,Marseille,60+,Bank Transfer,Paid,True,False,266.0,Medium
+82,17,7,2,2025-03-23,Produit_7,Sports,303.0,Premium,Client_17,20.0,Paris,18-25,Bank Transfer,Paid,True,False,606.0,High
+83,33,6,4,2025-03-24,Produit_6,Electronics,264.0,High,Client_33,59.0,Bordeaux,46-60,Paypal,Paid,True,False,1056.0,Very High
+84,48,2,3,2025-03-25,Produit_2,Clothing,212.0,High,Client_48,35.0,Lyon,26-35,Bank Transfer,Paid,True,False,636.0,High
+85,76,6,1,2025-03-26,Produit_6,Electronics,264.0,High,Client_76,43.0,Paris,36-45,Bank Transfer,Paid,True,False,264.0,Medium
+86,59,18,3,2025-03-27,Produit_18,Sports,210.0,High,Client_59,24.0,Bordeaux,18-25,Card,Paid,True,False,630.0,High
+87,86,2,5,2025-03-28,Produit_2,Clothing,212.0,High,Client_86,31.0,Paris,26-35,Card,Failed,False,True,1060.0,Very High
+88,22,18,4,2025-03-29,Produit_18,Sports,210.0,High,Client_22,47.0,Paris,46-60,Paypal,Paid,True,False,840.0,High
+89,30,15,3,2025-03-30,Produit_15,Clothing,249.0,High,Client_30,42.0,Bordeaux,36-45,Bank Transfer,Failed,False,True,747.0,High
+90,38,19,2,2025-03-31,Produit_19,Home,133.0,Medium,Client_38,68.0,Lille,60+,Bank Transfer,Paid,True,False,266.0,Medium
+91,51,2,5,2025-04-01,Produit_2,Clothing,212.0,High,Client_51,31.0,Bordeaux,26-35,Card,Paid,True,False,1060.0,Very High
+92,54,20,5,2025-04-02,Produit_20,Sports,196.0,High,Client_54,43.0,Marseille,36-45,Bank Transfer,Paid,True,False,980.0,High
+93,8,6,3,2025-04-03,Produit_6,Electronics,264.0,High,Client_8,56.0,Lyon,46-60,Card,Paid,True,False,792.0,High
+94,27,1,3,2025-04-04,Produit_1,Clothing,448.0,Premium,Client_27,29.0,Lyon,26-35,Paypal,Paid,True,False,1344.0,Very High
+95,27,15,4,2025-04-05,Produit_15,Clothing,249.0,High,Client_27,29.0,Lyon,26-35,Card,Paid,True,False,996.0,High
+96,98,10,1,2025-04-06,Produit_10,Home,381.0,Premium,Client_98,58.0,Paris,46-60,Bank Transfer,Paid,True,False,381.0,Medium
+97,21,19,3,2025-04-07,Produit_19,Home,133.0,Medium,Client_21,61.0,Lille,60+,Paypal,Paid,True,False,399.0,Medium
+98,30,17,3,2025-04-08,Produit_17,Clothing,106.0,Medium,Client_30,42.0,Bordeaux,36-45,Card,Paid,True,False,318.0,Medium
+99,97,5,2,2025-04-09,Produit_5,Home,410.0,Premium,Client_97,62.0,Paris,60+,Card,Paid,True,False,820.0,High
+100,28,4,5,2025-04-10,Produit_4,Clothing,132.0,Medium,Client_28,39.0,Paris,36-45,Paypal,Paid,True,False,660.0,High
+101,64,10,1,2025-04-11,Produit_10,Home,381.0,Premium,Client_64,31.0,Marseille,26-35,Paypal,Paid,True,False,381.0,Medium
+102,97,17,2,2025-04-12,Produit_17,Clothing,106.0,Medium,Client_97,62.0,Paris,60+,Card,Paid,True,False,212.0,Medium
+103,69,10,4,2025-04-13,Produit_10,Home,381.0,Premium,Client_69,21.0,Paris,18-25,Bank Transfer,Paid,True,False,1524.0,Very High
+104,61,17,4,2025-04-14,Produit_17,Clothing,106.0,Medium,Client_61,25.0,Marseille,18-25,Card,Failed,False,True,424.0,Medium
+105,48,20,3,2025-04-15,Produit_20,Sports,196.0,High,Client_48,35.0,Lyon,26-35,Paypal,Paid,True,False,588.0,High
+106,19,5,3,2025-04-16,Produit_5,Home,410.0,Premium,Client_19,19.0,Paris,18-25,Card,Paid,True,False,1230.0,Very High
+107,4,2,4,2025-04-17,Produit_2,Clothing,212.0,High,Client_4,32.0,Paris,26-35,Paypal,Failed,False,True,848.0,High
+108,35,6,3,2025-04-18,Produit_6,Electronics,264.0,High,Client_35,33.0,Lyon,26-35,Paypal,Paid,True,False,792.0,High
+109,64,2,1,2025-04-19,Produit_2,Clothing,212.0,High,Client_64,31.0,Marseille,26-35,Bank Transfer,Paid,True,False,212.0,Medium
+110,49,13,3,2025-04-20,Produit_13,Electronics,479.0,Premium,Client_49,21.0,Bordeaux,18-25,Paypal,Paid,True,False,1437.0,Very High
+111,17,11,5,2025-04-21,Produit_11,Clothing,107.0,Medium,Client_17,20.0,Paris,18-25,Paypal,Paid,True,False,535.0,High
+112,44,11,3,2025-04-22,Produit_11,Clothing,107.0,Medium,Client_44,24.0,Bordeaux,18-25,Bank Transfer,Paid,True,False,321.0,Medium
+113,92,16,2,2025-04-23,Produit_16,Sports,153.0,High,Client_92,35.0,Marseille,26-35,Paypal,Paid,True,False,306.0,Medium
+114,30,11,1,2025-04-24,Produit_11,Clothing,107.0,Medium,Client_30,42.0,Bordeaux,36-45,Bank Transfer,Paid,True,False,107.0,Medium
+115,93,19,2,2025-04-25,Produit_19,Home,133.0,Medium,Client_93,64.0,Lille,60+,Bank Transfer,Paid,True,False,266.0,Medium
+116,46,15,2,2025-04-26,Produit_15,Clothing,249.0,High,Client_46,26.0,Bordeaux,26-35,Paypal,Failed,False,True,498.0,Medium
+117,6,16,5,2025-04-27,Produit_16,Sports,153.0,High,Client_6,25.0,Unknown,18-25,Paypal,Paid,True,False,765.0,High
+118,99,11,1,2025-04-28,Produit_11,Clothing,107.0,Medium,Client_99,46.0,Lyon,46-60,Card,Paid,True,False,107.0,Medium
+119,37,16,1,2025-04-29,Produit_16,Sports,153.0,High,Client_37,64.0,Lille,60+,Bank Transfer,Paid,True,False,153.0,Medium
+120,24,8,1,2025-04-30,Produit_8,Electronics,289.0,High,Client_24,19.0,Lyon,18-25,Card,Paid,True,False,289.0,Medium
+121,93,4,1,2025-05-01,Produit_4,Clothing,132.0,Medium,Client_93,64.0,Lille,60+,Paypal,Paid,True,False,132.0,Medium
+122,46,8,1,2025-05-02,Produit_8,Electronics,289.0,High,Client_46,26.0,Bordeaux,26-35,Card,Paid,True,False,289.0,Medium
+123,53,4,5,2025-05-03,Produit_4,Clothing,132.0,Medium,Client_53,26.0,Lyon,26-35,Bank Transfer,Paid,True,False,660.0,High
+124,95,3,3,2025-05-04,Produit_3,Sports,193.0,High,Client_95,43.0,Paris,36-45,Card,Pending,False,False,579.0,High
+125,99,3,2,2025-05-05,Produit_3,Sports,193.0,High,Client_99,46.0,Lyon,46-60,Bank Transfer,Paid,True,False,386.0,Medium
+126,60,18,1,2025-05-06,Produit_18,Sports,210.0,High,Client_60,61.0,Marseille,60+,Paypal,Paid,True,False,210.0,Medium
+127,97,19,3,2025-05-07,Produit_19,Home,133.0,Medium,Client_97,62.0,Paris,60+,Paypal,Paid,True,False,399.0,Medium
+128,63,19,3,2025-05-08,Produit_19,Home,133.0,Medium,Client_63,52.0,Marseille,46-60,Bank Transfer,Paid,True,False,399.0,Medium
+129,85,5,2,2025-05-09,Produit_5,Home,410.0,Premium,Client_85,25.0,Lyon,18-25,Paypal,Paid,True,False,820.0,High
+130,32,18,5,2025-05-10,Produit_18,Sports,210.0,High,Client_32,44.0,Paris,36-45,Paypal,Paid,True,False,1050.0,Very High
+131,87,10,4,2025-05-11,Produit_10,Home,381.0,Premium,Client_87,40.0,Marseille,36-45,Paypal,Paid,True,False,1524.0,Very High
+132,33,6,4,2025-05-12,Produit_6,Electronics,264.0,High,Client_33,59.0,Bordeaux,46-60,Paypal,Paid,True,False,1056.0,Very High
+133,67,1,3,2025-05-13,Produit_1,Clothing,448.0,Premium,Client_67,67.0,Marseille,60+,Bank Transfer,Paid,True,False,1344.0,Very High
+134,18,5,2,2025-05-14,Produit_5,Home,410.0,Premium,Client_18,39.0,Marseille,36-45,Card,Paid,True,False,820.0,High
+135,25,9,4,2025-05-15,Produit_9,Electronics,334.0,Premium,Client_25,38.0,Marseille,36-45,Card,Paid,True,False,1336.0,Very High
+136,95,12,3,2025-05-16,Produit_12,Clothing,207.0,High,Client_95,43.0,Paris,36-45,Paypal,Paid,True,False,621.0,High
+137,54,14,5,2025-05-17,Produit_14,Sports,404.0,Premium,Client_54,43.0,Marseille,36-45,Card,Paid,True,False,2020.0,Very High
+138,58,2,4,2025-05-18,Produit_2,Clothing,212.0,High,Client_58,64.0,Paris,60+,Card,Paid,True,False,848.0,High
+139,67,17,3,2025-05-19,Produit_17,Clothing,106.0,Medium,Client_67,67.0,Marseille,60+,Paypal,Paid,True,False,318.0,Medium
+140,46,14,3,2025-05-20,Produit_14,Sports,404.0,Premium,Client_46,26.0,Bordeaux,26-35,Paypal,Paid,True,False,1212.0,Very High
+141,24,13,1,2025-05-21,Produit_13,Electronics,479.0,Premium,Client_24,19.0,Lyon,18-25,Card,Paid,True,False,479.0,Medium
+142,32,9,5,2025-05-22,Produit_9,Electronics,334.0,Premium,Client_32,44.0,Paris,36-45,Bank Transfer,Paid,True,False,1670.0,Very High
+143,47,15,1,2025-05-23,Produit_15,Clothing,249.0,High,Client_47,56.0,Bordeaux,46-60,Paypal,Failed,False,True,249.0,Medium
+144,86,15,2,2025-05-24,Produit_15,Clothing,249.0,High,Client_86,31.0,Paris,26-35,Bank Transfer,Paid,True,False,498.0,Medium
+145,23,11,1,2025-05-25,Produit_11,Clothing,107.0,Medium,Client_23,55.0,Bordeaux,46-60,Card,Failed,False,True,107.0,Medium
+146,66,16,1,2025-05-26,Produit_16,Sports,153.0,High,Client_66,53.0,Lille,46-60,Paypal,Paid,True,False,153.0,Medium
+147,27,17,4,2025-05-27,Produit_17,Clothing,106.0,Medium,Client_27,29.0,Lyon,26-35,Bank Transfer,Paid,True,False,424.0,Medium
+148,2,4,3,2025-05-28,Produit_4,Clothing,132.0,Medium,Client_2,69.0,Paris,60+,Paypal,Paid,True,False,396.0,Medium
+149,90,1,5,2025-05-29,Produit_1,Clothing,448.0,Premium,Client_90,33.0,Lille,26-35,Card,Paid,True,False,2240.0,Very High
+150,17,8,1,2025-05-30,Produit_8,Electronics,289.0,High,Client_17,20.0,Paris,18-25,Bank Transfer,Paid,True,False,289.0,Medium
+151,33,17,5,2025-05-31,Produit_17,Clothing,106.0,Medium,Client_33,59.0,Bordeaux,46-60,Card,Paid,True,False,530.0,High
+152,9,3,1,2025-06-01,Produit_3,Sports,193.0,High,Client_9,36.0,Paris,36-45,Card,Paid,True,False,193.0,Medium
+153,43,20,2,2025-06-02,Produit_20,Sports,196.0,High,Client_43,68.0,Marseille,60+,Paypal,Paid,True,False,392.0,Medium
+154,48,15,1,2025-06-03,Produit_15,Clothing,249.0,High,Client_48,35.0,Lyon,26-35,Bank Transfer,Paid,True,False,249.0,Medium
+155,39,15,4,2025-06-04,Produit_15,Clothing,249.0,High,Client_39,61.0,Marseille,60+,Card,Paid,True,False,996.0,High
+156,93,14,3,2025-06-05,Produit_14,Sports,404.0,Premium,Client_93,64.0,Lille,60+,Card,Paid,True,False,1212.0,Very High
+157,42,14,2,2025-06-06,Produit_14,Sports,404.0,Premium,Client_42,54.0,Paris,46-60,Bank Transfer,Paid,True,False,808.0,High
+158,26,2,1,2025-06-07,Produit_2,Clothing,212.0,High,Client_26,50.0,Unknown,46-60,Card,Paid,True,False,212.0,Medium
+159,99,13,5,2025-06-08,Produit_13,Electronics,479.0,Premium,Client_99,46.0,Lyon,46-60,Card,Paid,True,False,2395.0,Very High
+160,50,14,2,2025-06-09,Produit_14,Sports,404.0,Premium,Client_50,42.0,Marseille,36-45,Bank Transfer,Paid,True,False,808.0,High
+161,25,19,2,2025-06-10,Produit_19,Home,133.0,Medium,Client_25,38.0,Marseille,36-45,Bank Transfer,Pending,False,False,266.0,Medium
+162,24,7,1,2025-06-11,Produit_7,Sports,303.0,Premium,Client_24,19.0,Lyon,18-25,Bank Transfer,Failed,False,True,303.0,Medium
+163,13,3,2,2025-06-12,Produit_3,Sports,193.0,High,Client_13,41.0,Lyon,36-45,Bank Transfer,Paid,True,False,386.0,Medium
+164,60,15,5,2025-06-13,Produit_15,Clothing,249.0,High,Client_60,61.0,Marseille,60+,Paypal,Paid,True,False,1245.0,Very High
+165,7,14,2,2025-06-14,Produit_14,Sports,404.0,Premium,Client_7,38.0,Lyon,36-45,Bank Transfer,Paid,True,False,808.0,High
+166,57,11,5,2025-06-15,Produit_11,Clothing,107.0,Medium,Client_57,45.0,Bordeaux,36-45,Paypal,Paid,True,False,535.0,High
+167,36,15,1,2025-06-16,Produit_15,Clothing,249.0,High,Client_36,32.0,Paris,26-35,Paypal,Paid,True,False,249.0,Medium
+168,45,13,3,2025-06-17,Produit_13,Electronics,479.0,Premium,Client_45,38.0,Marseille,36-45,Paypal,Paid,True,False,1437.0,Very High
+169,20,18,2,2025-06-18,Produit_18,Sports,210.0,High,Client_20,41.0,Marseille,36-45,Card,Paid,True,False,420.0,Medium
+170,65,6,3,2025-06-19,Produit_6,Electronics,264.0,High,Client_65,34.0,Lyon,26-35,Paypal,Pending,False,False,792.0,High
+171,8,3,5,2025-06-20,Produit_3,Sports,193.0,High,Client_8,56.0,Lyon,46-60,Paypal,Paid,True,False,965.0,High
+172,16,19,2,2025-06-21,Produit_19,Home,133.0,Medium,Client_16,41.0,Lille,36-45,Card,Paid,True,False,266.0,Medium
+173,14,15,4,2025-06-22,Produit_15,Clothing,249.0,High,Client_14,53.0,Bordeaux,46-60,Card,Paid,True,False,996.0,High
+174,76,5,3,2025-06-23,Produit_5,Home,410.0,Premium,Client_76,43.0,Paris,36-45,Card,Pending,False,False,1230.0,Very High
+175,87,10,2,2025-06-24,Produit_10,Home,381.0,Premium,Client_87,40.0,Marseille,36-45,Bank Transfer,Paid,True,False,762.0,High
+176,15,7,3,2025-06-25,Produit_7,Sports,303.0,Premium,Client_15,57.0,Lille,46-60,Card,Paid,True,False,909.0,High
+177,92,17,2,2025-06-26,Produit_17,Clothing,106.0,Medium,Client_92,35.0,Marseille,26-35,Card,Paid,True,False,212.0,Medium
+178,98,7,1,2025-06-27,Produit_7,Sports,303.0,Premium,Client_98,58.0,Paris,46-60,Paypal,Paid,True,False,303.0,Medium
+179,66,12,3,2025-06-28,Produit_12,Clothing,207.0,High,Client_66,53.0,Lille,46-60,Card,Paid,True,False,621.0,High
+180,32,17,4,2025-06-29,Produit_17,Clothing,106.0,Medium,Client_32,44.0,Paris,36-45,Bank Transfer,Paid,True,False,424.0,Medium
+181,87,13,4,2025-06-30,Produit_13,Electronics,479.0,Premium,Client_87,40.0,Marseille,36-45,Card,Paid,True,False,1916.0,Very High
+182,63,20,5,2025-07-01,Produit_20,Sports,196.0,High,Client_63,52.0,Marseille,46-60,Bank Transfer,Paid,True,False,980.0,High
+183,86,4,2,2025-07-02,Produit_4,Clothing,132.0,Medium,Client_86,31.0,Paris,26-35,Card,Paid,True,False,264.0,Medium
+184,51,10,3,2025-07-03,Produit_10,Home,381.0,Premium,Client_51,31.0,Bordeaux,26-35,Card,Paid,True,False,1143.0,Very High
+185,25,3,5,2025-07-04,Produit_3,Sports,193.0,High,Client_25,38.0,Marseille,36-45,Card,Paid,True,False,965.0,High
+186,58,9,3,2025-07-05,Produit_9,Electronics,334.0,Premium,Client_58,64.0,Paris,60+,Card,Paid,True,False,1002.0,Very High
+187,63,13,2,2025-07-06,Produit_13,Electronics,479.0,Premium,Client_63,52.0,Marseille,46-60,Bank Transfer,Paid,True,False,958.0,High
+188,62,18,4,2025-07-07,Produit_18,Sports,210.0,High,Client_62,64.0,Marseille,60+,Bank Transfer,Paid,True,False,840.0,High
+189,22,15,1,2025-07-08,Produit_15,Clothing,249.0,High,Client_22,47.0,Paris,46-60,Paypal,Failed,False,True,249.0,Medium
+190,58,4,4,2025-07-09,Produit_4,Clothing,132.0,Medium,Client_58,64.0,Paris,60+,Bank Transfer,Paid,True,False,528.0,High
+191,58,15,5,2025-07-10,Produit_15,Clothing,249.0,High,Client_58,64.0,Paris,60+,Card,Paid,True,False,1245.0,Very High
+192,86,2,1,2025-07-11,Produit_2,Clothing,212.0,High,Client_86,31.0,Paris,26-35,Paypal,Paid,True,False,212.0,Medium
+193,49,15,5,2025-07-12,Produit_15,Clothing,249.0,High,Client_49,21.0,Bordeaux,18-25,Paypal,Paid,True,False,1245.0,Very High
+194,52,8,2,2025-07-13,Produit_8,Electronics,289.0,High,Client_52,67.0,Lyon,60+,Paypal,Paid,True,False,578.0,High
+195,42,8,1,2025-07-14,Produit_8,Electronics,289.0,High,Client_42,54.0,Paris,46-60,Card,Paid,True,False,289.0,Medium
+196,70,17,5,2025-07-15,Produit_17,Clothing,106.0,Medium,Client_70,19.0,Paris,18-25,Bank Transfer,Paid,True,False,530.0,High
+197,15,12,2,2025-07-16,Produit_12,Clothing,207.0,High,Client_15,57.0,Lille,46-60,Card,Paid,True,False,414.0,Medium
+198,54,19,4,2025-07-17,Produit_19,Home,133.0,Medium,Client_54,43.0,Marseille,36-45,Paypal,Paid,True,False,532.0,High
+199,60,10,2,2025-07-18,Produit_10,Home,381.0,Premium,Client_60,61.0,Marseille,60+,Card,Paid,True,False,762.0,High
+200,97,9,3,2025-07-19,Produit_9,Electronics,334.0,Premium,Client_97,62.0,Paris,60+,Card,Paid,True,False,1002.0,Very High
+201,8,5,2,2025-07-20,Produit_5,Home,410.0,Premium,Client_8,56.0,Lyon,46-60,Bank Transfer,Paid,True,False,820.0,High
+202,53,6,2,2025-07-21,Produit_6,Electronics,264.0,High,Client_53,26.0,Lyon,26-35,Bank Transfer,Paid,True,False,528.0,High
+203,60,20,3,2025-07-22,Produit_20,Sports,196.0,High,Client_60,61.0,Marseille,60+,Paypal,Paid,True,False,588.0,High
+204,5,2,5,2025-07-23,Produit_2,Clothing,212.0,High,Client_5,60.0,Paris,46-60,Card,Failed,False,True,1060.0,Very High
+205,68,13,5,2025-07-24,Produit_13,Electronics,479.0,Premium,Client_68,57.0,Paris,46-60,Card,Paid,True,False,2395.0,Very High
+206,6,6,2,2025-07-25,Produit_6,Electronics,264.0,High,Client_6,25.0,Unknown,18-25,Bank Transfer,Paid,True,False,528.0,High
+207,96,5,3,2025-07-26,Produit_5,Home,410.0,Premium,Client_96,42.0,Bordeaux,36-45,Card,Paid,True,False,1230.0,Very High
+208,94,1,3,2025-07-27,Produit_1,Clothing,448.0,Premium,Client_94,41.0,Lyon,36-45,Card,Paid,True,False,1344.0,Very High
+209,47,6,4,2025-07-28,Produit_6,Electronics,264.0,High,Client_47,56.0,Bordeaux,46-60,Card,Paid,True,False,1056.0,Very High
+210,99,6,5,2025-07-29,Produit_6,Electronics,264.0,High,Client_99,46.0,Lyon,46-60,Bank Transfer,Paid,True,False,1320.0,Very High
+211,55,16,1,2025-07-30,Produit_16,Sports,153.0,High,Client_55,19.0,Lille,18-25,Paypal,Paid,True,False,153.0,Medium
+212,40,4,5,2025-07-31,Produit_4,Clothing,132.0,Medium,Client_40,69.0,Bordeaux,60+,Paypal,Paid,True,False,660.0,High
+213,52,11,5,2025-08-01,Produit_11,Clothing,107.0,Medium,Client_52,67.0,Lyon,60+,Card,Paid,True,False,535.0,High
+214,16,9,4,2025-08-02,Produit_9,Electronics,334.0,Premium,Client_16,41.0,Lille,36-45,Paypal,Paid,True,False,1336.0,Very High
+215,13,3,1,2025-08-03,Produit_3,Sports,193.0,High,Client_13,41.0,Lyon,36-45,Bank Transfer,Paid,True,False,193.0,Medium
+216,30,19,4,2025-08-04,Produit_19,Home,133.0,Medium,Client_30,42.0,Bordeaux,36-45,Bank Transfer,Failed,False,True,532.0,High
+217,19,8,1,2025-08-05,Produit_8,Electronics,289.0,High,Client_19,19.0,Paris,18-25,Paypal,Paid,True,False,289.0,Medium
+218,17,5,2,2025-08-06,Produit_5,Home,410.0,Premium,Client_17,20.0,Paris,18-25,Paypal,Paid,True,False,820.0,High
+219,63,4,1,2025-08-07,Produit_4,Clothing,132.0,Medium,Client_63,52.0,Marseille,46-60,Card,Failed,False,True,132.0,Medium
+220,19,6,4,2025-08-08,Produit_6,Electronics,264.0,High,Client_19,19.0,Paris,18-25,Paypal,Paid,True,False,1056.0,Very High
+221,92,2,5,2025-08-09,Produit_2,Clothing,212.0,High,Client_92,35.0,Marseille,26-35,Card,Paid,True,False,1060.0,Very High
+222,58,20,1,2025-08-10,Produit_20,Sports,196.0,High,Client_58,64.0,Paris,60+,Card,Paid,True,False,196.0,Medium
+223,55,11,1,2025-08-11,Produit_11,Clothing,107.0,Medium,Client_55,19.0,Lille,18-25,Bank Transfer,Paid,True,False,107.0,Medium
+224,90,4,3,2025-08-12,Produit_4,Clothing,132.0,Medium,Client_90,33.0,Lille,26-35,Bank Transfer,Paid,True,False,396.0,Medium
+225,90,15,5,2025-08-13,Produit_15,Clothing,249.0,High,Client_90,33.0,Lille,26-35,Bank Transfer,Paid,True,False,1245.0,Very High
+226,62,6,2,2025-08-14,Produit_6,Electronics,264.0,High,Client_62,64.0,Marseille,60+,Bank Transfer,Paid,True,False,528.0,High
+227,23,17,4,2025-08-15,Produit_17,Clothing,106.0,Medium,Client_23,55.0,Bordeaux,46-60,Paypal,Pending,False,False,424.0,Medium
+228,9,6,2,2025-08-16,Produit_6,Electronics,264.0,High,Client_9,36.0,Paris,36-45,Bank Transfer,Paid,True,False,528.0,High
+229,12,19,5,2025-08-17,Produit_19,Home,133.0,Medium,Client_12,28.0,Paris,26-35,Paypal,Paid,True,False,665.0,High
+230,1,2,1,2025-08-18,Produit_2,Clothing,212.0,High,Client_1,56.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,212.0,Medium
+231,58,15,1,2025-08-19,Produit_15,Clothing,249.0,High,Client_58,64.0,Paris,60+,Paypal,Paid,True,False,249.0,Medium
+232,1,11,5,2025-08-20,Produit_11,Clothing,107.0,Medium,Client_1,56.0,Bordeaux,46-60,Card,Paid,True,False,535.0,High
+233,34,8,1,2025-08-21,Produit_8,Electronics,289.0,High,Client_34,45.0,Lille,36-45,Paypal,Pending,False,False,289.0,Medium
+234,96,19,1,2025-08-22,Produit_19,Home,133.0,Medium,Client_96,42.0,Bordeaux,36-45,Paypal,Paid,True,False,133.0,Medium
+235,48,13,1,2025-08-23,Produit_13,Electronics,479.0,Premium,Client_48,35.0,Lyon,26-35,Bank Transfer,Paid,True,False,479.0,Medium
+236,89,12,4,2025-08-24,Produit_12,Clothing,207.0,High,Client_89,38.0,Paris,36-45,Paypal,Paid,True,False,828.0,High
+237,1,5,4,2025-08-25,Produit_5,Home,410.0,Premium,Client_1,56.0,Bordeaux,46-60,Card,Pending,False,False,1640.0,Very High
+238,16,6,3,2025-08-26,Produit_6,Electronics,264.0,High,Client_16,41.0,Lille,36-45,Card,Paid,True,False,792.0,High
+239,61,4,2,2025-08-27,Produit_4,Clothing,132.0,Medium,Client_61,25.0,Marseille,18-25,Bank Transfer,Paid,True,False,264.0,Medium
+240,64,19,5,2025-08-28,Produit_19,Home,133.0,Medium,Client_64,31.0,Marseille,26-35,Card,Paid,True,False,665.0,High
+241,63,20,5,2025-08-29,Produit_20,Sports,196.0,High,Client_63,52.0,Marseille,46-60,Paypal,Pending,False,False,980.0,High
+242,69,1,5,2025-08-30,Produit_1,Clothing,448.0,Premium,Client_69,21.0,Paris,18-25,Card,Paid,True,False,2240.0,Very High
+243,22,20,3,2025-08-31,Produit_20,Sports,196.0,High,Client_22,47.0,Paris,46-60,Bank Transfer,Pending,False,False,588.0,High
+244,93,17,4,2025-09-01,Produit_17,Clothing,106.0,Medium,Client_93,64.0,Lille,60+,Paypal,Paid,True,False,424.0,Medium
+245,67,12,3,2025-09-02,Produit_12,Clothing,207.0,High,Client_67,67.0,Marseille,60+,Bank Transfer,Paid,True,False,621.0,High
+246,76,15,5,2025-09-03,Produit_15,Clothing,249.0,High,Client_76,43.0,Paris,36-45,Paypal,Paid,True,False,1245.0,Very High
+247,26,1,2,2025-09-04,Produit_1,Clothing,448.0,Premium,Client_26,50.0,Unknown,46-60,Card,Paid,True,False,896.0,High
+248,16,14,1,2025-09-05,Produit_14,Sports,404.0,Premium,Client_16,41.0,Lille,36-45,Bank Transfer,Paid,True,False,404.0,Medium
+249,51,6,4,2025-09-06,Produit_6,Electronics,264.0,High,Client_51,31.0,Bordeaux,26-35,Bank Transfer,Paid,True,False,1056.0,Very High
+250,86,5,4,2025-09-07,Produit_5,Home,410.0,Premium,Client_86,31.0,Paris,26-35,Paypal,Paid,True,False,1640.0,Very High
+251,57,11,3,2025-09-08,Produit_11,Clothing,107.0,Medium,Client_57,45.0,Bordeaux,36-45,Bank Transfer,Paid,True,False,321.0,Medium
+252,29,4,4,2025-09-09,Produit_4,Clothing,132.0,Medium,Client_29,61.0,Lyon,60+,Paypal,Paid,True,False,528.0,High
+253,78,13,5,2025-09-10,Produit_13,Electronics,479.0,Premium,Client_78,51.0,Lyon,46-60,Paypal,Failed,False,True,2395.0,Very High
+254,92,11,5,2025-09-11,Produit_11,Clothing,107.0,Medium,Client_92,35.0,Marseille,26-35,Paypal,Pending,False,False,535.0,High
+255,69,3,3,2025-09-12,Produit_3,Sports,193.0,High,Client_69,21.0,Paris,18-25,Paypal,Paid,True,False,579.0,High
+256,47,1,5,2025-09-13,Produit_1,Clothing,448.0,Premium,Client_47,56.0,Bordeaux,46-60,Card,Paid,True,False,2240.0,Very High
+257,94,6,2,2025-09-14,Produit_6,Electronics,264.0,High,Client_94,41.0,Lyon,36-45,Paypal,Paid,True,False,528.0,High
+258,62,18,3,2025-09-15,Produit_18,Sports,210.0,High,Client_62,64.0,Marseille,60+,Bank Transfer,Paid,True,False,630.0,High
+259,69,10,2,2025-09-16,Produit_10,Home,381.0,Premium,Client_69,21.0,Paris,18-25,Card,Paid,True,False,762.0,High
+260,76,5,1,2025-09-17,Produit_5,Home,410.0,Premium,Client_76,43.0,Paris,36-45,Bank Transfer,Paid,True,False,410.0,Medium
+261,16,10,2,2025-09-18,Produit_10,Home,381.0,Premium,Client_16,41.0,Lille,36-45,Card,Paid,True,False,762.0,High
+262,90,12,1,2025-09-19,Produit_12,Clothing,207.0,High,Client_90,33.0,Lille,26-35,Paypal,Paid,True,False,207.0,Medium
+263,90,2,1,2025-09-20,Produit_2,Clothing,212.0,High,Client_90,33.0,Lille,26-35,Card,Paid,True,False,212.0,Medium
+264,48,13,2,2025-09-21,Produit_13,Electronics,479.0,Premium,Client_48,35.0,Lyon,26-35,Card,Paid,True,False,958.0,High
+265,85,8,3,2025-09-22,Produit_8,Electronics,289.0,High,Client_85,25.0,Lyon,18-25,Bank Transfer,Paid,True,False,867.0,High
+266,39,2,5,2025-09-23,Produit_2,Clothing,212.0,High,Client_39,61.0,Marseille,60+,Bank Transfer,Paid,True,False,1060.0,Very High
+267,100,20,5,2025-09-24,Produit_20,Sports,196.0,High,Client_100,32.0,Paris,26-35,Paypal,Paid,True,False,980.0,High
+268,33,1,1,2025-09-25,Produit_1,Clothing,448.0,Premium,Client_33,59.0,Bordeaux,46-60,Card,Paid,True,False,448.0,Medium
+269,94,5,1,2025-09-26,Produit_5,Home,410.0,Premium,Client_94,41.0,Lyon,36-45,Card,Paid,True,False,410.0,Medium
+270,23,9,3,2025-09-27,Produit_9,Electronics,334.0,Premium,Client_23,55.0,Bordeaux,46-60,Card,Pending,False,False,1002.0,Very High
+271,10,17,4,2025-09-28,Produit_17,Clothing,106.0,Medium,Client_10,40.0,Lyon,36-45,Paypal,Paid,True,False,424.0,Medium
+272,69,9,2,2025-09-29,Produit_9,Electronics,334.0,Premium,Client_69,21.0,Paris,18-25,Paypal,Paid,True,False,668.0,High
+273,100,11,1,2025-09-30,Produit_11,Clothing,107.0,Medium,Client_100,32.0,Paris,26-35,Paypal,Paid,True,False,107.0,Medium
+274,34,15,5,2025-10-01,Produit_15,Clothing,249.0,High,Client_34,45.0,Lille,36-45,Paypal,Paid,True,False,1245.0,Very High
+275,52,6,3,2025-10-02,Produit_6,Electronics,264.0,High,Client_52,67.0,Lyon,60+,Paypal,Paid,True,False,792.0,High
+276,95,3,2,2025-10-03,Produit_3,Sports,193.0,High,Client_95,43.0,Paris,36-45,Bank Transfer,Paid,True,False,386.0,Medium
+277,10,17,3,2025-10-04,Produit_17,Clothing,106.0,Medium,Client_10,40.0,Lyon,36-45,Card,Paid,True,False,318.0,Medium
+278,19,5,2,2025-10-05,Produit_5,Home,410.0,Premium,Client_19,19.0,Paris,18-25,Card,Failed,False,True,820.0,High
+279,58,12,2,2025-10-06,Produit_12,Clothing,207.0,High,Client_58,64.0,Paris,60+,Card,Paid,True,False,414.0,Medium
+280,96,18,1,2025-10-07,Produit_18,Sports,210.0,High,Client_96,42.0,Bordeaux,36-45,Card,Paid,True,False,210.0,Medium
+281,1,14,3,2025-10-08,Produit_14,Sports,404.0,Premium,Client_1,56.0,Bordeaux,46-60,Card,Paid,True,False,1212.0,Very High
+282,69,11,3,2025-10-09,Produit_11,Clothing,107.0,Medium,Client_69,21.0,Paris,18-25,Card,Paid,True,False,321.0,Medium
+283,4,9,5,2025-10-10,Produit_9,Electronics,334.0,Premium,Client_4,32.0,Paris,26-35,Card,Paid,True,False,1670.0,Very High
+284,16,2,5,2025-10-11,Produit_2,Clothing,212.0,High,Client_16,41.0,Lille,36-45,Card,Paid,True,False,1060.0,Very High
+285,24,12,1,2025-10-12,Produit_12,Clothing,207.0,High,Client_24,19.0,Lyon,18-25,Bank Transfer,Paid,True,False,207.0,Medium
+286,80,3,1,2025-10-13,Produit_3,Sports,193.0,High,Client_80,53.0,Bordeaux,46-60,Card,Paid,True,False,193.0,Medium
+287,2,3,4,2025-10-14,Produit_3,Sports,193.0,High,Client_2,69.0,Paris,60+,Bank Transfer,Paid,True,False,772.0,High
+288,92,1,5,2025-10-15,Produit_1,Clothing,448.0,Premium,Client_92,35.0,Marseille,26-35,Paypal,Paid,True,False,2240.0,Very High
+289,32,8,2,2025-10-16,Produit_8,Electronics,289.0,High,Client_32,44.0,Paris,36-45,Card,Paid,True,False,578.0,High
+290,91,8,3,2025-10-17,Produit_8,Electronics,289.0,High,Client_91,62.0,Marseille,60+,Paypal,Paid,True,False,867.0,High
+291,84,11,1,2025-10-18,Produit_11,Clothing,107.0,Medium,Client_84,32.0,Marseille,26-35,Paypal,Paid,True,False,107.0,Medium
+292,24,9,3,2025-10-19,Produit_9,Electronics,334.0,Premium,Client_24,19.0,Lyon,18-25,Paypal,Paid,True,False,1002.0,Very High
+293,12,5,3,2025-10-20,Produit_5,Home,410.0,Premium,Client_12,28.0,Paris,26-35,Bank Transfer,Paid,True,False,1230.0,Very High
+294,50,14,4,2025-10-21,Produit_14,Sports,404.0,Premium,Client_50,42.0,Marseille,36-45,Paypal,Paid,True,False,1616.0,Very High
+295,35,3,5,2025-10-22,Produit_3,Sports,193.0,High,Client_35,33.0,Lyon,26-35,Paypal,Failed,False,True,965.0,High
+296,33,5,1,2025-10-23,Produit_5,Home,410.0,Premium,Client_33,59.0,Bordeaux,46-60,Paypal,Paid,True,False,410.0,Medium
+297,33,5,3,2025-10-24,Produit_5,Home,410.0,Premium,Client_33,59.0,Bordeaux,46-60,Card,Paid,True,False,1230.0,Very High
+298,61,19,1,2025-10-25,Produit_19,Home,133.0,Medium,Client_61,25.0,Marseille,18-25,Card,Paid,True,False,133.0,Medium
+299,51,14,2,2025-10-26,Produit_14,Sports,404.0,Premium,Client_51,31.0,Bordeaux,26-35,Bank Transfer,Paid,True,False,808.0,High
+300,43,4,4,2025-10-27,Produit_4,Clothing,132.0,Medium,Client_43,68.0,Marseille,60+,Bank Transfer,Pending,False,False,528.0,High
+301,12,13,2,2025-10-28,Produit_13,Electronics,479.0,Premium,Client_12,28.0,Paris,26-35,Card,Failed,False,True,958.0,High
+302,67,10,1,2025-10-29,Produit_10,Home,381.0,Premium,Client_67,67.0,Marseille,60+,Bank Transfer,Paid,True,False,381.0,Medium
+303,65,18,1,2025-10-30,Produit_18,Sports,210.0,High,Client_65,34.0,Lyon,26-35,Card,Paid,True,False,210.0,Medium
+304,33,8,5,2025-10-31,Produit_8,Electronics,289.0,High,Client_33,59.0,Bordeaux,46-60,Paypal,Paid,True,False,1445.0,Very High
+305,40,8,3,2025-11-01,Produit_8,Electronics,289.0,High,Client_40,69.0,Bordeaux,60+,Paypal,Pending,False,False,867.0,High
+306,74,7,3,2025-11-02,Produit_7,Sports,303.0,Premium,Client_74,46.0,Marseille,46-60,Bank Transfer,Paid,True,False,909.0,High
+307,43,8,2,2025-11-03,Produit_8,Electronics,289.0,High,Client_43,68.0,Marseille,60+,Card,Paid,True,False,578.0,High
+308,44,14,4,2025-11-04,Produit_14,Sports,404.0,Premium,Client_44,24.0,Bordeaux,18-25,Card,Paid,True,False,1616.0,Very High
+309,29,19,3,2025-11-05,Produit_19,Home,133.0,Medium,Client_29,61.0,Lyon,60+,Bank Transfer,Paid,True,False,399.0,Medium
+310,13,6,5,2025-11-06,Produit_6,Electronics,264.0,High,Client_13,41.0,Lyon,36-45,Card,Paid,True,False,1320.0,Very High
+311,12,1,2,2025-11-07,Produit_1,Clothing,448.0,Premium,Client_12,28.0,Paris,26-35,Paypal,Paid,True,False,896.0,High
+312,95,15,2,2025-11-08,Produit_15,Clothing,249.0,High,Client_95,43.0,Paris,36-45,Bank Transfer,Paid,True,False,498.0,Medium
+313,46,1,5,2025-11-09,Produit_1,Clothing,448.0,Premium,Client_46,26.0,Bordeaux,26-35,Bank Transfer,Paid,True,False,2240.0,Very High
+314,2,17,4,2025-11-10,Produit_17,Clothing,106.0,Medium,Client_2,69.0,Paris,60+,Card,Paid,True,False,424.0,Medium
+315,35,1,5,2025-11-11,Produit_1,Clothing,448.0,Premium,Client_35,33.0,Lyon,26-35,Bank Transfer,Paid,True,False,2240.0,Very High
+316,87,15,4,2025-11-12,Produit_15,Clothing,249.0,High,Client_87,40.0,Marseille,36-45,Card,Paid,True,False,996.0,High
+317,81,2,5,2025-11-13,Produit_2,Clothing,212.0,High,Client_81,31.0,Paris,26-35,Card,Paid,True,False,1060.0,Very High
+318,90,14,5,2025-11-14,Produit_14,Sports,404.0,Premium,Client_90,33.0,Lille,26-35,Card,Paid,True,False,2020.0,Very High
+319,8,8,1,2025-11-15,Produit_8,Electronics,289.0,High,Client_8,56.0,Lyon,46-60,Card,Paid,True,False,289.0,Medium
+320,93,8,2,2025-11-16,Produit_8,Electronics,289.0,High,Client_93,64.0,Lille,60+,Card,Paid,True,False,578.0,High
+321,26,19,5,2025-11-17,Produit_19,Home,133.0,Medium,Client_26,50.0,Unknown,46-60,Bank Transfer,Paid,True,False,665.0,High
+322,74,7,5,2025-11-18,Produit_7,Sports,303.0,Premium,Client_74,46.0,Marseille,46-60,Paypal,Paid,True,False,1515.0,Very High
+323,90,19,3,2025-11-19,Produit_19,Home,133.0,Medium,Client_90,33.0,Lille,26-35,Paypal,Paid,True,False,399.0,Medium
+324,34,6,2,2025-11-20,Produit_6,Electronics,264.0,High,Client_34,45.0,Lille,36-45,Bank Transfer,Paid,True,False,528.0,High
+325,7,6,3,2025-11-21,Produit_6,Electronics,264.0,High,Client_7,38.0,Lyon,36-45,Bank Transfer,Paid,True,False,792.0,High
+326,68,3,2,2025-11-22,Produit_3,Sports,193.0,High,Client_68,57.0,Paris,46-60,Paypal,Paid,True,False,386.0,Medium
+327,58,7,3,2025-11-23,Produit_7,Sports,303.0,Premium,Client_58,64.0,Paris,60+,Paypal,Paid,True,False,909.0,High
+328,75,19,5,2025-11-24,Produit_19,Home,133.0,Medium,Client_75,35.0,Bordeaux,26-35,Paypal,Paid,True,False,665.0,High
+329,29,8,5,2025-11-25,Produit_8,Electronics,289.0,High,Client_29,61.0,Lyon,60+,Paypal,Paid,True,False,1445.0,Very High
+330,36,10,1,2025-11-26,Produit_10,Home,381.0,Premium,Client_36,32.0,Paris,26-35,Paypal,Paid,True,False,381.0,Medium
+331,89,20,3,2025-11-27,Produit_20,Sports,196.0,High,Client_89,38.0,Paris,36-45,Card,Paid,True,False,588.0,High
+332,21,15,4,2025-11-28,Produit_15,Clothing,249.0,High,Client_21,61.0,Lille,60+,Bank Transfer,Paid,True,False,996.0,High
+333,36,15,1,2025-11-29,Produit_15,Clothing,249.0,High,Client_36,32.0,Paris,26-35,Card,Paid,True,False,249.0,Medium
+334,10,1,3,2025-11-30,Produit_1,Clothing,448.0,Premium,Client_10,40.0,Lyon,36-45,Paypal,Paid,True,False,1344.0,Very High
+335,73,20,3,2025-12-01,Produit_20,Sports,196.0,High,Client_73,21.0,Paris,18-25,Paypal,Paid,True,False,588.0,High
+336,24,7,1,2025-12-02,Produit_7,Sports,303.0,Premium,Client_24,19.0,Lyon,18-25,Paypal,Paid,True,False,303.0,Medium
+337,64,4,5,2025-12-03,Produit_4,Clothing,132.0,Medium,Client_64,31.0,Marseille,26-35,Card,Paid,True,False,660.0,High
+338,99,6,3,2025-12-04,Produit_6,Electronics,264.0,High,Client_99,46.0,Lyon,46-60,Card,Paid,True,False,792.0,High
+339,49,1,5,2025-12-05,Produit_1,Clothing,448.0,Premium,Client_49,21.0,Bordeaux,18-25,Paypal,Paid,True,False,2240.0,Very High
+340,99,5,1,2025-12-06,Produit_5,Home,410.0,Premium,Client_99,46.0,Lyon,46-60,Card,Paid,True,False,410.0,Medium
+341,36,1,5,2025-12-07,Produit_1,Clothing,448.0,Premium,Client_36,32.0,Paris,26-35,Card,Paid,True,False,2240.0,Very High
+342,82,4,2,2025-12-08,Produit_4,Clothing,132.0,Medium,Client_82,48.0,Lyon,46-60,Paypal,Paid,True,False,264.0,Medium
+343,96,2,4,2025-12-09,Produit_2,Clothing,212.0,High,Client_96,42.0,Bordeaux,36-45,Card,Failed,False,True,848.0,High
+344,24,10,3,2025-12-10,Produit_10,Home,381.0,Premium,Client_24,19.0,Lyon,18-25,Bank Transfer,Pending,False,False,1143.0,Very High
+345,23,5,4,2025-12-11,Produit_5,Home,410.0,Premium,Client_23,55.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,1640.0,Very High
+346,62,10,5,2025-12-12,Produit_10,Home,381.0,Premium,Client_62,64.0,Marseille,60+,Bank Transfer,Paid,True,False,1905.0,Very High
+347,96,1,3,2025-12-13,Produit_1,Clothing,448.0,Premium,Client_96,42.0,Bordeaux,36-45,Bank Transfer,Paid,True,False,1344.0,Very High
+348,37,6,5,2025-12-14,Produit_6,Electronics,264.0,High,Client_37,64.0,Lille,60+,Paypal,Paid,True,False,1320.0,Very High
+349,12,13,2,2025-12-15,Produit_13,Electronics,479.0,Premium,Client_12,28.0,Paris,26-35,Paypal,Paid,True,False,958.0,High
+350,55,15,1,2025-12-16,Produit_15,Clothing,249.0,High,Client_55,19.0,Lille,18-25,Paypal,Paid,True,False,249.0,Medium
+351,13,4,3,2025-12-17,Produit_4,Clothing,132.0,Medium,Client_13,41.0,Lyon,36-45,Bank Transfer,Paid,True,False,396.0,Medium
+352,23,13,2,2025-12-18,Produit_13,Electronics,479.0,Premium,Client_23,55.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,958.0,High
+353,89,20,2,2025-12-19,Produit_20,Sports,196.0,High,Client_89,38.0,Paris,36-45,Card,Paid,True,False,392.0,Medium
+354,99,15,3,2025-12-20,Produit_15,Clothing,249.0,High,Client_99,46.0,Lyon,46-60,Card,Paid,True,False,747.0,High
+355,30,8,5,2025-12-21,Produit_8,Electronics,289.0,High,Client_30,42.0,Bordeaux,36-45,Bank Transfer,Paid,True,False,1445.0,Very High
+356,17,5,2,2025-12-22,Produit_5,Home,410.0,Premium,Client_17,20.0,Paris,18-25,Bank Transfer,Paid,True,False,820.0,High
+357,62,15,4,2025-12-23,Produit_15,Clothing,249.0,High,Client_62,64.0,Marseille,60+,Bank Transfer,Paid,True,False,996.0,High
+358,84,4,2,2025-12-24,Produit_4,Clothing,132.0,Medium,Client_84,32.0,Marseille,26-35,Bank Transfer,Paid,True,False,264.0,Medium
+359,89,12,5,2025-12-25,Produit_12,Clothing,207.0,High,Client_89,38.0,Paris,36-45,Card,Paid,True,False,1035.0,Very High
+360,86,13,5,2025-12-26,Produit_13,Electronics,479.0,Premium,Client_86,31.0,Paris,26-35,Bank Transfer,Paid,True,False,2395.0,Very High
+361,13,2,4,2025-12-27,Produit_2,Clothing,212.0,High,Client_13,41.0,Lyon,36-45,Card,Paid,True,False,848.0,High
+362,59,19,2,2025-12-28,Produit_19,Home,133.0,Medium,Client_59,24.0,Bordeaux,18-25,Bank Transfer,Paid,True,False,266.0,Medium
+363,19,19,5,2025-12-29,Produit_19,Home,133.0,Medium,Client_19,19.0,Paris,18-25,Bank Transfer,Paid,True,False,665.0,High
+364,49,4,3,2025-12-30,Produit_4,Clothing,132.0,Medium,Client_49,21.0,Bordeaux,18-25,Bank Transfer,Pending,False,False,396.0,Medium
+365,100,4,1,2025-12-31,Produit_4,Clothing,132.0,Medium,Client_100,32.0,Paris,26-35,Card,Paid,True,False,132.0,Medium
+366,12,11,1,2026-01-01,Produit_11,Clothing,107.0,Medium,Client_12,28.0,Paris,26-35,Card,Paid,True,False,107.0,Medium
+367,61,5,1,2026-01-02,Produit_5,Home,410.0,Premium,Client_61,25.0,Marseille,18-25,Paypal,Pending,False,False,410.0,Medium
+368,19,20,2,2026-01-03,Produit_20,Sports,196.0,High,Client_19,19.0,Paris,18-25,Bank Transfer,Paid,True,False,392.0,Medium
+369,76,11,4,2026-01-04,Produit_11,Clothing,107.0,Medium,Client_76,43.0,Paris,36-45,Paypal,Paid,True,False,428.0,Medium
+370,9,10,5,2026-01-05,Produit_10,Home,381.0,Premium,Client_9,36.0,Paris,36-45,Paypal,Paid,True,False,1905.0,Very High
+371,71,8,3,2026-01-06,Produit_8,Electronics,289.0,High,Client_71,23.0,Paris,18-25,Card,Paid,True,False,867.0,High
+372,28,6,3,2026-01-07,Produit_6,Electronics,264.0,High,Client_28,39.0,Paris,36-45,Card,Paid,True,False,792.0,High
+373,78,6,2,2026-01-08,Produit_6,Electronics,264.0,High,Client_78,51.0,Lyon,46-60,Paypal,Paid,True,False,528.0,High
+374,95,8,1,2026-01-09,Produit_8,Electronics,289.0,High,Client_95,43.0,Paris,36-45,Bank Transfer,Paid,True,False,289.0,Medium
+375,52,15,2,2026-01-10,Produit_15,Clothing,249.0,High,Client_52,67.0,Lyon,60+,Card,Paid,True,False,498.0,Medium
+376,83,14,4,2026-01-11,Produit_14,Sports,404.0,Premium,Client_83,65.0,Lille,60+,Bank Transfer,Paid,True,False,1616.0,Very High
+377,16,11,4,2026-01-12,Produit_11,Clothing,107.0,Medium,Client_16,41.0,Lille,36-45,Bank Transfer,Paid,True,False,428.0,Medium
+378,69,12,5,2026-01-13,Produit_12,Clothing,207.0,High,Client_69,21.0,Paris,18-25,Paypal,Paid,True,False,1035.0,Very High
+379,99,13,5,2026-01-14,Produit_13,Electronics,479.0,Premium,Client_99,46.0,Lyon,46-60,Paypal,Paid,True,False,2395.0,Very High
+380,12,8,4,2026-01-15,Produit_8,Electronics,289.0,High,Client_12,28.0,Paris,26-35,Paypal,Paid,True,False,1156.0,Very High
+381,25,18,4,2026-01-16,Produit_18,Sports,210.0,High,Client_25,38.0,Marseille,36-45,Paypal,Paid,True,False,840.0,High
+382,52,1,4,2026-01-17,Produit_1,Clothing,448.0,Premium,Client_52,67.0,Lyon,60+,Card,Paid,True,False,1792.0,Very High
+383,85,15,2,2026-01-18,Produit_15,Clothing,249.0,High,Client_85,25.0,Lyon,18-25,Card,Paid,True,False,498.0,Medium
+384,100,8,4,2026-01-19,Produit_8,Electronics,289.0,High,Client_100,32.0,Paris,26-35,Paypal,Paid,True,False,1156.0,Very High
+385,53,11,3,2026-01-20,Produit_11,Clothing,107.0,Medium,Client_53,26.0,Lyon,26-35,Card,Failed,False,True,321.0,Medium
+386,23,12,1,2026-01-21,Produit_12,Clothing,207.0,High,Client_23,55.0,Bordeaux,46-60,Paypal,Paid,True,False,207.0,Medium
+387,16,12,4,2026-01-22,Produit_12,Clothing,207.0,High,Client_16,41.0,Lille,36-45,Bank Transfer,Paid,True,False,828.0,High
+388,57,4,1,2026-01-23,Produit_4,Clothing,132.0,Medium,Client_57,45.0,Bordeaux,36-45,Bank Transfer,Paid,True,False,132.0,Medium
+389,39,16,2,2026-01-24,Produit_16,Sports,153.0,High,Client_39,61.0,Marseille,60+,Bank Transfer,Paid,True,False,306.0,Medium
+390,53,4,1,2026-01-25,Produit_4,Clothing,132.0,Medium,Client_53,26.0,Lyon,26-35,Paypal,Paid,True,False,132.0,Medium
+391,42,5,2,2026-01-26,Produit_5,Home,410.0,Premium,Client_42,54.0,Paris,46-60,Bank Transfer,Pending,False,False,820.0,High
+392,58,5,3,2026-01-27,Produit_5,Home,410.0,Premium,Client_58,64.0,Paris,60+,Card,Paid,True,False,1230.0,Very High
+393,39,8,2,2026-01-28,Produit_8,Electronics,289.0,High,Client_39,61.0,Marseille,60+,Bank Transfer,Paid,True,False,578.0,High
+394,14,10,2,2026-01-29,Produit_10,Home,381.0,Premium,Client_14,53.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,762.0,High
+395,95,17,5,2026-01-30,Produit_17,Clothing,106.0,Medium,Client_95,43.0,Paris,36-45,Bank Transfer,Paid,True,False,530.0,High
+396,5,9,4,2026-01-31,Produit_9,Electronics,334.0,Premium,Client_5,60.0,Paris,46-60,Card,Paid,True,False,1336.0,Very High
+397,35,19,4,2026-02-01,Produit_19,Home,133.0,Medium,Client_35,33.0,Lyon,26-35,Paypal,Paid,True,False,532.0,High
+398,87,14,3,2026-02-02,Produit_14,Sports,404.0,Premium,Client_87,40.0,Marseille,36-45,Card,Paid,True,False,1212.0,Very High
+399,93,8,3,2026-02-03,Produit_8,Electronics,289.0,High,Client_93,64.0,Lille,60+,Paypal,Paid,True,False,867.0,High
+400,75,9,4,2026-02-04,Produit_9,Electronics,334.0,Premium,Client_75,35.0,Bordeaux,26-35,Paypal,Paid,True,False,1336.0,Very High
+401,18,11,5,2026-02-05,Produit_11,Clothing,107.0,Medium,Client_18,39.0,Marseille,36-45,Bank Transfer,Pending,False,False,535.0,High
+402,76,1,4,2026-02-06,Produit_1,Clothing,448.0,Premium,Client_76,43.0,Paris,36-45,Paypal,Paid,True,False,1792.0,Very High
+403,9,14,5,2026-02-07,Produit_14,Sports,404.0,Premium,Client_9,36.0,Paris,36-45,Card,Paid,True,False,2020.0,Very High
+404,74,5,3,2026-02-08,Produit_5,Home,410.0,Premium,Client_74,46.0,Marseille,46-60,Card,Paid,True,False,1230.0,Very High
+405,58,14,1,2026-02-09,Produit_14,Sports,404.0,Premium,Client_58,64.0,Paris,60+,Paypal,Paid,True,False,404.0,Medium
+406,17,4,3,2026-02-10,Produit_4,Clothing,132.0,Medium,Client_17,20.0,Paris,18-25,Bank Transfer,Pending,False,False,396.0,Medium
+407,7,1,3,2026-02-11,Produit_1,Clothing,448.0,Premium,Client_7,38.0,Lyon,36-45,Bank Transfer,Paid,True,False,1344.0,Very High
+408,46,19,2,2026-02-12,Produit_19,Home,133.0,Medium,Client_46,26.0,Bordeaux,26-35,Card,Paid,True,False,266.0,Medium
+409,13,8,2,2026-02-13,Produit_8,Electronics,289.0,High,Client_13,41.0,Lyon,36-45,Bank Transfer,Failed,False,True,578.0,High
+410,40,15,2,2026-02-14,Produit_15,Clothing,249.0,High,Client_40,69.0,Bordeaux,60+,Paypal,Paid,True,False,498.0,Medium
+411,42,15,2,2026-02-15,Produit_15,Clothing,249.0,High,Client_42,54.0,Paris,46-60,Paypal,Pending,False,False,498.0,Medium
+412,9,9,5,2026-02-16,Produit_9,Electronics,334.0,Premium,Client_9,36.0,Paris,36-45,Card,Paid,True,False,1670.0,Very High
+413,50,9,4,2026-02-17,Produit_9,Electronics,334.0,Premium,Client_50,42.0,Marseille,36-45,Paypal,Paid,True,False,1336.0,Very High
+414,27,10,1,2026-02-18,Produit_10,Home,381.0,Premium,Client_27,29.0,Lyon,26-35,Card,Paid,True,False,381.0,Medium
+415,66,20,3,2026-02-19,Produit_20,Sports,196.0,High,Client_66,53.0,Lille,46-60,Paypal,Paid,True,False,588.0,High
+416,5,9,5,2026-02-20,Produit_9,Electronics,334.0,Premium,Client_5,60.0,Paris,46-60,Card,Failed,False,True,1670.0,Very High
+417,29,3,1,2026-02-21,Produit_3,Sports,193.0,High,Client_29,61.0,Lyon,60+,Bank Transfer,Paid,True,False,193.0,Medium
+418,37,20,5,2026-02-22,Produit_20,Sports,196.0,High,Client_37,64.0,Lille,60+,Paypal,Paid,True,False,980.0,High
+419,38,11,5,2026-02-23,Produit_11,Clothing,107.0,Medium,Client_38,68.0,Lille,60+,Paypal,Paid,True,False,535.0,High
+420,83,6,3,2026-02-24,Produit_6,Electronics,264.0,High,Client_83,65.0,Lille,60+,Card,Paid,True,False,792.0,High
+421,8,2,4,2026-02-25,Produit_2,Clothing,212.0,High,Client_8,56.0,Lyon,46-60,Card,Paid,True,False,848.0,High
+422,65,7,2,2026-02-26,Produit_7,Sports,303.0,Premium,Client_65,34.0,Lyon,26-35,Paypal,Failed,False,True,606.0,High
+423,86,18,4,2026-02-27,Produit_18,Sports,210.0,High,Client_86,31.0,Paris,26-35,Card,Paid,True,False,840.0,High
+424,17,2,3,2026-02-28,Produit_2,Clothing,212.0,High,Client_17,20.0,Paris,18-25,Paypal,Paid,True,False,636.0,High
+425,71,17,3,2026-03-01,Produit_17,Clothing,106.0,Medium,Client_71,23.0,Paris,18-25,Bank Transfer,Paid,True,False,318.0,Medium
+426,89,11,3,2026-03-02,Produit_11,Clothing,107.0,Medium,Client_89,38.0,Paris,36-45,Card,Paid,True,False,321.0,Medium
+427,45,12,1,2026-03-03,Produit_12,Clothing,207.0,High,Client_45,38.0,Marseille,36-45,Paypal,Paid,True,False,207.0,Medium
+428,4,19,4,2026-03-04,Produit_19,Home,133.0,Medium,Client_4,32.0,Paris,26-35,Bank Transfer,Paid,True,False,532.0,High
+429,36,7,4,2026-03-05,Produit_7,Sports,303.0,Premium,Client_36,32.0,Paris,26-35,Bank Transfer,Pending,False,False,1212.0,Very High
+430,70,20,5,2026-03-06,Produit_20,Sports,196.0,High,Client_70,19.0,Paris,18-25,Paypal,Paid,True,False,980.0,High
+431,31,6,5,2026-03-07,Produit_6,Electronics,264.0,High,Client_31,66.0,Lyon,60+,Card,Paid,True,False,1320.0,Very High
+432,19,1,5,2026-03-08,Produit_1,Clothing,448.0,Premium,Client_19,19.0,Paris,18-25,Paypal,Paid,True,False,2240.0,Very High
+433,61,17,3,2026-03-09,Produit_17,Clothing,106.0,Medium,Client_61,25.0,Marseille,18-25,Bank Transfer,Pending,False,False,318.0,Medium
+434,54,11,4,2026-03-10,Produit_11,Clothing,107.0,Medium,Client_54,43.0,Marseille,36-45,Paypal,Paid,True,False,428.0,Medium
+435,39,18,3,2026-03-11,Produit_18,Sports,210.0,High,Client_39,61.0,Marseille,60+,Card,Paid,True,False,630.0,High
+436,91,17,1,2026-03-12,Produit_17,Clothing,106.0,Medium,Client_91,62.0,Marseille,60+,Bank Transfer,Paid,True,False,106.0,Medium
+437,74,7,5,2026-03-13,Produit_7,Sports,303.0,Premium,Client_74,46.0,Marseille,46-60,Paypal,Paid,True,False,1515.0,Very High
+438,90,17,3,2026-03-14,Produit_17,Clothing,106.0,Medium,Client_90,33.0,Lille,26-35,Card,Paid,True,False,318.0,Medium
+439,19,20,3,2026-03-15,Produit_20,Sports,196.0,High,Client_19,19.0,Paris,18-25,Bank Transfer,Paid,True,False,588.0,High
+440,39,9,1,2026-03-16,Produit_9,Electronics,334.0,Premium,Client_39,61.0,Marseille,60+,Card,Paid,True,False,334.0,Medium
+441,67,17,2,2026-03-17,Produit_17,Clothing,106.0,Medium,Client_67,67.0,Marseille,60+,Bank Transfer,Paid,True,False,212.0,Medium
+442,45,20,4,2026-03-18,Produit_20,Sports,196.0,High,Client_45,38.0,Marseille,36-45,Paypal,Pending,False,False,784.0,High
+443,13,8,2,2026-03-19,Produit_8,Electronics,289.0,High,Client_13,41.0,Lyon,36-45,Card,Paid,True,False,578.0,High
+444,92,17,5,2026-03-20,Produit_17,Clothing,106.0,Medium,Client_92,35.0,Marseille,26-35,Bank Transfer,Paid,True,False,530.0,High
+445,58,7,3,2026-03-21,Produit_7,Sports,303.0,Premium,Client_58,64.0,Paris,60+,Card,Paid,True,False,909.0,High
+446,20,1,1,2026-03-22,Produit_1,Clothing,448.0,Premium,Client_20,41.0,Marseille,36-45,Card,Paid,True,False,448.0,Medium
+447,92,13,1,2026-03-23,Produit_13,Electronics,479.0,Premium,Client_92,35.0,Marseille,26-35,Paypal,Paid,True,False,479.0,Medium
+448,72,19,4,2026-03-24,Produit_19,Home,133.0,Medium,Client_72,59.0,Lyon,46-60,Card,Paid,True,False,532.0,High
+449,61,19,2,2026-03-25,Produit_19,Home,133.0,Medium,Client_61,25.0,Marseille,18-25,Bank Transfer,Paid,True,False,266.0,Medium
+450,39,17,4,2026-03-26,Produit_17,Clothing,106.0,Medium,Client_39,61.0,Marseille,60+,Bank Transfer,Paid,True,False,424.0,Medium
+451,1,13,3,2026-03-27,Produit_13,Electronics,479.0,Premium,Client_1,56.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,1437.0,Very High
+452,3,16,4,2026-03-28,Produit_16,Sports,153.0,High,Client_3,46.0,Paris,46-60,Bank Transfer,Paid,True,False,612.0,High
+453,77,8,1,2026-03-29,Produit_8,Electronics,289.0,High,Client_77,61.0,Lyon,60+,Paypal,Paid,True,False,289.0,Medium
+454,92,19,1,2026-03-30,Produit_19,Home,133.0,Medium,Client_92,35.0,Marseille,26-35,Card,Paid,True,False,133.0,Medium
+455,62,18,5,2026-03-31,Produit_18,Sports,210.0,High,Client_62,64.0,Marseille,60+,Paypal,Paid,True,False,1050.0,Very High
+456,63,1,5,2026-04-01,Produit_1,Clothing,448.0,Premium,Client_63,52.0,Marseille,46-60,Card,Paid,True,False,2240.0,Very High
+457,25,14,3,2026-04-02,Produit_14,Sports,404.0,Premium,Client_25,38.0,Marseille,36-45,Card,Paid,True,False,1212.0,Very High
+458,56,19,2,2026-04-03,Produit_19,Home,133.0,Medium,Client_56,37.0,Lille,36-45,Card,Paid,True,False,266.0,Medium
+459,33,15,4,2026-04-04,Produit_15,Clothing,249.0,High,Client_33,59.0,Bordeaux,46-60,Paypal,Paid,True,False,996.0,High
+460,38,18,3,2026-04-05,Produit_18,Sports,210.0,High,Client_38,68.0,Lille,60+,Card,Paid,True,False,630.0,High
+461,6,2,5,2026-04-06,Produit_2,Clothing,212.0,High,Client_6,25.0,Unknown,18-25,Paypal,Paid,True,False,1060.0,Very High
+462,58,17,4,2026-04-07,Produit_17,Clothing,106.0,Medium,Client_58,64.0,Paris,60+,Bank Transfer,Pending,False,False,424.0,Medium
+463,44,18,5,2026-04-08,Produit_18,Sports,210.0,High,Client_44,24.0,Bordeaux,18-25,Bank Transfer,Pending,False,False,1050.0,Very High
+464,45,6,4,2026-04-09,Produit_6,Electronics,264.0,High,Client_45,38.0,Marseille,36-45,Card,Pending,False,False,1056.0,Very High
+465,32,19,2,2026-04-10,Produit_19,Home,133.0,Medium,Client_32,44.0,Paris,36-45,Paypal,Paid,True,False,266.0,Medium
+466,45,4,3,2026-04-11,Produit_4,Clothing,132.0,Medium,Client_45,38.0,Marseille,36-45,Bank Transfer,Paid,True,False,396.0,Medium
+467,61,1,4,2026-04-12,Produit_1,Clothing,448.0,Premium,Client_61,25.0,Marseille,18-25,Paypal,Failed,False,True,1792.0,Very High
+468,47,8,1,2026-04-13,Produit_8,Electronics,289.0,High,Client_47,56.0,Bordeaux,46-60,Paypal,Paid,True,False,289.0,Medium
+469,21,7,1,2026-04-14,Produit_7,Sports,303.0,Premium,Client_21,61.0,Lille,60+,Card,Paid,True,False,303.0,Medium
+470,80,3,4,2026-04-15,Produit_3,Sports,193.0,High,Client_80,53.0,Bordeaux,46-60,Bank Transfer,Paid,True,False,772.0,High
+471,85,10,4,2026-04-16,Produit_10,Home,381.0,Premium,Client_85,25.0,Lyon,18-25,Card,Paid,True,False,1524.0,Very High
+472,75,10,4,2026-04-17,Produit_10,Home,381.0,Premium,Client_75,35.0,Bordeaux,26-35,Card,Pending,False,False,1524.0,Very High
+473,36,19,1,2026-04-18,Produit_19,Home,133.0,Medium,Client_36,32.0,Paris,26-35,Bank Transfer,Paid,True,False,133.0,Medium
+474,99,14,1,2026-04-19,Produit_14,Sports,404.0,Premium,Client_99,46.0,Lyon,46-60,Bank Transfer,Paid,True,False,404.0,Medium
+475,19,2,4,2026-04-20,Produit_2,Clothing,212.0,High,Client_19,19.0,Paris,18-25,Paypal,Paid,True,False,848.0,High
+476,20,1,5,2026-04-21,Produit_1,Clothing,448.0,Premium,Client_20,41.0,Marseille,36-45,Bank Transfer,Paid,True,False,2240.0,Very High
+477,57,18,5,2026-04-22,Produit_18,Sports,210.0,High,Client_57,45.0,Bordeaux,36-45,Paypal,Paid,True,False,1050.0,Very High
+478,18,7,2,2026-04-23,Produit_7,Sports,303.0,Premium,Client_18,39.0,Marseille,36-45,Paypal,Paid,True,False,606.0,High
+479,47,8,3,2026-04-24,Produit_8,Electronics,289.0,High,Client_47,56.0,Bordeaux,46-60,Paypal,Paid,True,False,867.0,High
+480,49,1,5,2026-04-25,Produit_1,Clothing,448.0,Premium,Client_49,21.0,Bordeaux,18-25,Bank Transfer,Failed,False,True,2240.0,Very High
+481,14,3,1,2026-04-26,Produit_3,Sports,193.0,High,Client_14,53.0,Bordeaux,46-60,Card,Paid,True,False,193.0,Medium
+482,15,8,5,2026-04-27,Produit_8,Electronics,289.0,High,Client_15,57.0,Lille,46-60,Paypal,Paid,True,False,1445.0,Very High
+483,31,15,2,2026-04-28,Produit_15,Clothing,249.0,High,Client_31,66.0,Lyon,60+,Card,Paid,True,False,498.0,Medium
+484,1,5,2,2026-04-29,Produit_5,Home,410.0,Premium,Client_1,56.0,Bordeaux,46-60,Card,Paid,True,False,820.0,High
+485,54,3,3,2026-04-30,Produit_3,Sports,193.0,High,Client_54,43.0,Marseille,36-45,Bank Transfer,Paid,True,False,579.0,High
+486,3,19,5,2026-05-01,Produit_19,Home,133.0,Medium,Client_3,46.0,Paris,46-60,Card,Paid,True,False,665.0,High
+487,16,1,1,2026-05-02,Produit_1,Clothing,448.0,Premium,Client_16,41.0,Lille,36-45,Card,Paid,True,False,448.0,Medium
+488,87,15,1,2026-05-03,Produit_15,Clothing,249.0,High,Client_87,40.0,Marseille,36-45,Bank Transfer,Paid,True,False,249.0,Medium
+489,57,8,4,2026-05-04,Produit_8,Electronics,289.0,High,Client_57,45.0,Bordeaux,36-45,Paypal,Pending,False,False,1156.0,Very High
+490,75,2,1,2026-05-05,Produit_2,Clothing,212.0,High,Client_75,35.0,Bordeaux,26-35,Card,Paid,True,False,212.0,Medium
+491,12,3,3,2026-05-06,Produit_3,Sports,193.0,High,Client_12,28.0,Paris,26-35,Bank Transfer,Paid,True,False,579.0,High
+492,74,14,3,2026-05-07,Produit_14,Sports,404.0,Premium,Client_74,46.0,Marseille,46-60,Card,Paid,True,False,1212.0,Very High
+493,96,14,1,2026-05-08,Produit_14,Sports,404.0,Premium,Client_96,42.0,Bordeaux,36-45,Card,Paid,True,False,404.0,Medium
+494,16,11,1,2026-05-09,Produit_11,Clothing,107.0,Medium,Client_16,41.0,Lille,36-45,Paypal,Paid,True,False,107.0,Medium
+495,72,16,4,2026-05-10,Produit_16,Sports,153.0,High,Client_72,59.0,Lyon,46-60,Card,Pending,False,False,612.0,High
+496,76,4,1,2026-05-11,Produit_4,Clothing,132.0,Medium,Client_76,43.0,Paris,36-45,Bank Transfer,Pending,False,False,132.0,Medium
+497,24,20,4,2026-05-12,Produit_20,Sports,196.0,High,Client_24,19.0,Lyon,18-25,Card,Paid,True,False,784.0,High
+498,28,5,4,2026-05-13,Produit_5,Home,410.0,Premium,Client_28,39.0,Paris,36-45,Paypal,Failed,False,True,1640.0,Very High
+499,8,14,1,2026-05-14,Produit_14,Sports,404.0,Premium,Client_8,56.0,Lyon,46-60,Paypal,Paid,True,False,404.0,Medium
+500,92,16,2,2026-05-15,Produit_16,Sports,153.0,High,Client_92,35.0,Marseille,26-35,Bank Transfer,Paid,True,False,306.0,Medium
